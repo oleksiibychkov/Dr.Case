@@ -165,7 +165,7 @@ Candidate Selector складається з двох кроків:
 ### 20.3. Політика C: Cumulative mass за \\(\alpha\\) (найважливіша)
 
 Нехай
-\\[K_\alpha(x) = \min\left\{K:\ \sum_{i=1}^{K} m_i \geq \alpha \right\}\\]
+\\[K_\alpha(x) = \min\left\\{K:\ \sum_{i=1}^{K} m_i \geq \alpha \right\\}\\]
 
 Тоді
 \\[S_\alpha(x) = \\{u_1, \dots, u_{K_\alpha(x)}\\}\\]
@@ -219,7 +219,7 @@ Membership — це число:
 Нехай \\(\alpha \in (0, 1)\\) — заданий параметр.
 
 Формально визначимо число:
-\\[K_\alpha = \min\left\{K \in \\{1, \dots, n\\}:\ \sum_{i=1}^{K} m_i \geq \alpha \right\}\\]
+\\[K_\alpha = \min\left\\{K \in \\{1, \dots, n\\}:\ \sum_{i=1}^{K} m_i \geq \alpha \right\\}\\]
 
 Тобто \\(K_\alpha\\) — **найменша** кількість перших юнітів, яка "покриває" масу \\(\alpha\\).
 
@@ -583,7 +583,7 @@ u₈: 0.12   ← істинний u*
 де \\(A(d)\\) — множина юнітів, прив'язаних до діагнозу \\(d\\).
 
 Позначимо множину поганих кейсів:
-\\[\mathcal{B}_\alpha = \left\{j: \max_{u \in A(d_j^{\ast})} m(u \mid x_j) < 1 - \alpha\right\}\\]
+\\[\mathcal{B}_\alpha = \left\\{j: \max_{u \in A(d_j^{\ast})} m(u \mid x_j) < 1 - \alpha\right\\}\\]
 
 ### 25.3. Теорема 2 (нижня межа Candidate Recall)
 
@@ -701,7 +701,7 @@ u₈: 0.12   ← істинний u*
 \\[\sup_{r} |F_N(r) - F(r)| \leq \eta(N, \delta)\\]
 
 Позначимо подію:
-\\[E := \left\{\sup_r |F_N(r) - F(r)| \leq \eta(N, \delta)\right\}\\]
+\\[E := \left\\{\sup_r |F_N(r) - F(r)| \leq \eta(N, \delta)\right\\}\\]
 
 Тоді:
 \\[\Pr(E) \geq 1 - \delta\\]
