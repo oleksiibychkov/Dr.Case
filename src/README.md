@@ -69,7 +69,7 @@ Dr.Case — це експертна система медичної дифере
 
 ### Теорема гарантії (достатня умова)
 
-> Якщо $ m(u^*) > 1 - \alpha \\), то \\( u^* \in S_\alpha $
+> Якщо $ m(u^*) > 1 - \alpha $, то $ u^* \in S_\alpha $
 
 ### Expected Information Gain
 
