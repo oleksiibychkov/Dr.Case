@@ -65,7 +65,7 @@ Dr.Case — це експертна система медичної дифере
 
 \\[ K_\alpha = \min\left\{K: \sum_{i=1}^{K} m_i \geq \alpha \right\} \\]
 
-\\[ S_\alpha = \{u_1, u_2, \ldots, u_{K_\alpha}\} \\]
+\\[ S_\alpha = \\{u_1, u_2, \ldots, u_{K_\alpha}\\} \\]
 
 ### Теорема гарантії (достатня умова)
 
