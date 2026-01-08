@@ -2,7 +2,6 @@
 title = "Dr.Case — Експертна система медичної діагностики"
 authors = ["Oleksii Bychkov"]
 language = "uk"
-multilingual = false
 src = "src"
 
 [build]
