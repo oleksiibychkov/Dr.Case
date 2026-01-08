@@ -63,13 +63,13 @@ Dr.Case — це експертна система медичної дифере
 
 ### Candidate Selector (cumulative mass policy)
 
-\\[ K_\alpha = \min\left\\{K: \sum_{i=1}^{K} m_i \geq \alpha \right\\} \\]
+\\[ K_\alpha = \min\left\{K: \sum_{i=1}^{K} m_i \geq \alpha \right\} \\]
 
 \\[ S_\alpha = \\{u_1, u_2, \ldots, u_{K_\alpha}\\} \\]
 
 ### Теорема гарантії (достатня умова)
 
-> Якщо \\( m(u^*) > 1 - \alpha \\), то \\( u^* \in S_\alpha \\)
+> Якщо \\( m(u^{\ast}) > 1 - \alpha \\), то \\( u^{\ast} \in S_\alpha \\)
 
 ### Expected Information Gain
 

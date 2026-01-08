@@ -305,7 +305,7 @@ Multilabel Neural Network у цій архітектурі є **механізм
 
 \\[d_{(1)}^{(t)} = \arg\max_{d_i \in \mathcal{D}_{cand}^{(t)}} \hat{y}_i^{(t)}\\]
 
-\\[d_{(2)}^{(t)} = \arg\max_{d_i \in \mathcal{D}_{cand}^{(t)} \setminus \{d_{(1)}^{(t)}\}} \hat{y}_i^{(t)}\\]
+\\[d_{(2)}^{(t)} = \arg\max_{d_i \in \mathcal{D}_{cand}^{(t)} \setminus \\{d_{(1)}^{(t)}\\}} \hat{y}_i^{(t)}\\]
 
 Тоді "розрив" визначимо як:
 
@@ -359,7 +359,7 @@ Multilabel Neural Network у цій архітектурі є **механізм
 
 Коли система зупиняється, важливо повідомляти **тип зупинки**:
 
-\\[\text{STOP\_TYPE}^{(t)} \in \{\text{DOMINANCE},\; \text{STABILITY},\; \text{NEED\_TEST},\; \text{SAFETY}\}\\]
+\\[\text{STOP\_TYPE}^{(t)} \in \\{\text{DOMINANCE},\; \text{STABILITY},\; \text{NEED\_TEST},\; \text{SAFETY}\\}\\]
 
 Це робить поведінку системи прозорою: лікар бачить не лише список гіпотез, а й логічну причину, чому система не питає далі.
 
@@ -431,7 +431,7 @@ Multilabel Neural Network у цій архітектурі є **механізм
 
 **Вибір питання:**
 
-\\[q^{*} = \arg\max_q \text{EIG}(q)\\]
+\\[q^{\ast} = \arg\max_q \text{EIG}(q)\\]
 
 тобто питання, яке максимально зменшує очікувану невизначеність.
 
@@ -485,13 +485,13 @@ Multilabel Neural Network у цій архітектурі є **механізм
 На кожній новій ітерації система знову проєктує оновлений стан \\(x^{(t+1)}\\) на SOM. Зміна стану може призвести до:
 
 **Випадок 1: Посилення домінуючого сценарію**
-\\[m_{u^{*}}^{(t+1)} > m_{u^{*}}^{(t)}, \quad \text{де } u^{*} = \arg\max_u m_u^{(t)}\\]
+\\[m_{u^{\ast}}^{(t+1)} > m_{u^{\ast}}^{(t)}, \quad \text{де } u^{\ast} = \arg\max_u m_u^{(t)}\\]
 
 **Випадок 2: Перерозподіл між сценаріями**
 \\[\exists u_1, u_2: \quad m_{u_1}^{(t+1)} < m_{u_1}^{(t)} \text{ та } m_{u_2}^{(t+1)} > m_{u_2}^{(t)}\\]
 
 **Випадок 3: Зміна активної множини сценаріїв**
-\\[\mathcal{U}_{active}^{(t+1)} \neq \mathcal{U}_{active}^{(t)}, \quad \text{де } \mathcal{U}_{active} = \{u : m_u > \tau_m\}\\]
+\\[\mathcal{U}_{active}^{(t+1)} \neq \mathcal{U}_{active}^{(t)}, \quad \text{де } \mathcal{U}_{active} = \\{u : m_u > \tau_m\\}\\]
 
 ---
 
