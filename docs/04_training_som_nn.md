@@ -1,4 +1,12 @@
+---
+layout: default
+title: "Частина V: Навчання SOM + Multilabel NN"
+nav_order: 4
+---
+
 # ЧАСТИНА V. НАВЧАННЯ ІЄРАРХІЧНОЇ НЕЙРОННОЇ МЕРЕЖІ SOM + MULTILABEL
+
+[← Повернутися на головну](../)
 
 ---
 

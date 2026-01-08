@@ -9,6 +9,7 @@ markdown: kramdown
 kramdown:
   math_engine: mathjax
   input: GFM
+  syntax_highlighter: rouge
 
 # Include docs folder
 include:
@@ -18,3 +19,4 @@ include:
 exclude:
   - LICENSE
   - .github
+  - "*.md~"
