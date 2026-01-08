@@ -1,0 +1,19 @@
+[book]
+title = "Dr.Case — Експертна система медичної діагностики"
+authors = ["Oleksii Bychkov"]
+language = "uk"
+multilingual = false
+src = "src"
+
+[build]
+build-dir = "book"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/oleksiibychkov/Dr.Case"
+edit-url-template = "https://github.com/oleksiibychkov/Dr.Case/edit/main/{path}"
+
+[output.html.fold]
+enable = true
+level = 1
