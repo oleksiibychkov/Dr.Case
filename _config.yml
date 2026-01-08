@@ -1,0 +1,20 @@
+title: Dr.Case
+description: Експертна система медичної диференціальної діагностики — SOM + Multilabel Neural Network
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+# Markdown rendering
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  input: GFM
+
+# Include docs folder
+include:
+  - docs
+
+# Exclude unnecessary files
+exclude:
+  - LICENSE
+  - .github
