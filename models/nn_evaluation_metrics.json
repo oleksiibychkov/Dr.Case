@@ -1,0 +1,39 @@
+{
+  "model": "C:\\Projects\\Dr.Case\\models\\nn_two_branch.pt",
+  "test_samples": 43150,
+  "recall": {
+    "recall_1": 0.6768945538818076,
+    "recall_5": 0.8882502896871379,
+    "recall_10": 0.9356431054461182,
+    "recall_20": 0.9679721900347624
+  },
+  "ranking": {
+    "mAP": 0.7708273642604105,
+    "MRR": 0.7708273642604105
+  },
+  "rank_distribution": {
+    "min": 1,
+    "max": 725,
+    "mean": 4.273371958285052,
+    "median": 1.0,
+    "std": 18.70713318718205,
+    "rank_1": 29208,
+    "rank_1_5": 38328,
+    "rank_1_10": 40373,
+    "rank_1_20": 41768
+  },
+  "targets": {
+    "prototype": {
+      "Recall@1": 0.5,
+      "Recall@5": 0.85,
+      "Recall@10": 0.92,
+      "mAP": 0.6
+    },
+    "production": {
+      "Recall@1": 0.7,
+      "Recall@5": 0.95,
+      "Recall@10": 0.99,
+      "mAP": 0.8
+    }
+  }
+}

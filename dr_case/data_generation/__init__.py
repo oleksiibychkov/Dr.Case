@@ -10,8 +10,15 @@ from .frequency_sampler import (
     GeneratedSample,
 )
 
+from .two_branch_generator import (
+    TwoBranchDataGenerator,
+    TwoBranchSamplerConfig,
+)
+
 __all__ = [
     "FrequencySampler",
     "SamplerConfig", 
     "GeneratedSample",
+    "TwoBranchDataGenerator",
+    "TwoBranchSamplerConfig",
 ]

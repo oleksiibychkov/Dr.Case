@@ -1,0 +1,28 @@
+{
+  "database": "C:\\Projects\\Dr.Case\\data\\unified_disease_symptom_merged.json",
+  "best_params": {
+    "grid_height": 30,
+    "grid_width": 30,
+    "epochs": 500,
+    "learning_rate_init": 0.5,
+    "sigma_init": 15.0
+  },
+  "selector_params": {
+    "alpha": 0.95,
+    "k": 10,
+    "tau": 0.001
+  },
+  "best_metrics": {
+    "qe": 2.255403099483457,
+    "te": 0.005793742757821553,
+    "fill_ratio": 0.3322222222222222
+  },
+  "recall_metrics": {
+    "recall": 1.0,
+    "hits": 863,
+    "total": 863,
+    "avg_candidates": 39.85631517960603,
+    "min_candidates": 10,
+    "max_candidates": 116
+  }
+}
