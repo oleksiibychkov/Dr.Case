@@ -1,0 +1,24 @@
+{
+  "best_params": {
+    "grid_size": 30,
+    "epochs": 500,
+    "sigma_ratio": 0.329190787890809,
+    "lr_init": 0.6604303462323192,
+    "lr_final": 0.009244201482479494,
+    "alpha": 0.9728911914126845,
+    "k": 4,
+    "tau": 0.002550220045142655,
+    "lambda_param": 1.8585807104414123
+  },
+  "best_value": 1.0104489876710778,
+  "best_metrics": {
+    "recall": 1.0,
+    "avg_candidates": 13.05952380952381,
+    "candidates_ratio": 0.015510123289220678,
+    "qe": 2.165575264921946,
+    "te": 0.032066508313539195,
+    "fill_ratio": 0.39666666666666667
+  },
+  "n_trials": 50,
+  "study_name": "som_optimization"
+}

@@ -1,0 +1,54 @@
+{
+  "best_params": {
+    "learning_rate": 0.00014026957526942308,
+    "weight_decay": 1.5025399484753903e-06,
+    "batch_size": 32,
+    "use_focal_loss": false,
+    "n_layers": 3,
+    "hidden_dim_0": 128,
+    "hidden_dim_1": 64,
+    "hidden_dim_2": 64,
+    "dropout": 0.2442578096512015,
+    "use_batch_norm": true,
+    "augment_prob": 0.45582256778644215,
+    "drop_prob": 0.14048520005409432,
+    "add_prob": 0.1817619861514126
+  },
+  "best_value": 0.020833333333333332,
+  "best_metrics": {
+    "recall_at_1": 0.0,
+    "recall_at_5": 0.02976190476190476,
+    "recall_at_10": 0.02976190476190476,
+    "n_params": 126794,
+    "hidden_dims": [
+      128,
+      64,
+      64
+    ]
+  },
+  "n_trials": 20,
+  "study_name": "nn_quick_tune",
+  "training_config": {
+    "hidden_dims": [
+      128,
+      64,
+      64
+    ],
+    "dropout": 0.2442578096512015,
+    "learning_rate": 0.00014026957526942308,
+    "weight_decay": 1.5025399484753903e-06,
+    "batch_size": 32,
+    "epochs": 100,
+    "patience": 10,
+    "min_delta": 0.0001,
+    "augment": true,
+    "augment_prob": 0.45582256778644215,
+    "augment_drop_prob": 0.14048520005409432,
+    "augment_add_prob": 0.1817619861514126,
+    "use_focal_loss": false,
+    "focal_gamma": 2.0,
+    "use_scheduler": true,
+    "scheduler_patience": 5,
+    "scheduler_factor": 0.5
+  }
+}
