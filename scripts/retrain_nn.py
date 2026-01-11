@@ -2,13 +2,14 @@
 Dr.Case — Перенавчання Neural Network (Двогілкова архітектура)
 
 Архітектура:
-    symptom_vector (466) → [256 → 128] ─┐
-                                         ├─→ concat → [128] → disease_scores (863)
+    symptom_vector (460) → [256 → 128] ─┐
+                                         ├─→ concat → [128] → disease_scores (844)
     som_context (10) → [64 → 32] ───────┘
 
 ВАЖЛИВО:
 - symptom_vector: L2-нормалізується в моделі
 - som_context: вже нормалізовано (softmax)
+- База: 844 хвороби, 460 симптомів (після очищення)
 
 Запуск:
     python scripts/retrain_nn.py

@@ -13,16 +13,16 @@
     "tau": 0.001
   },
   "best_metrics": {
-    "qe": 2.255403099483457,
-    "te": 0.005793742757821553,
-    "fill_ratio": 0.3322222222222222
+    "qe": 2.2525251139874154,
+    "te": 0.011848341232227487,
+    "fill_ratio": 0.33666666666666667
   },
   "recall_metrics": {
     "recall": 1.0,
-    "hits": 863,
-    "total": 863,
-    "avg_candidates": 39.85631517960603,
-    "min_candidates": 10,
-    "max_candidates": 116
+    "hits": 844,
+    "total": 844,
+    "avg_candidates": 38.63625592417062,
+    "min_candidates": 11,
+    "max_candidates": 97
   }
 }

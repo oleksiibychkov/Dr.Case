@@ -160,13 +160,13 @@
       "Abnormal Appearing Skin"
     ],
     "symptom_frequency": {
-      "Sore Throat": 70,
-      "Throat Swelling": 100,
-      "Difficulty In Swallowing": 52,
-      "Abnormal Appearing Skin": 87,
-      "Skin Growth": 63,
-      "Lip Swelling": 68,
-      "Toothache": 58
+      "Sore Throat": 88,
+      "Throat Swelling": 124,
+      "Difficulty In Swallowing": 65,
+      "Abnormal Appearing Skin": 108,
+      "Skin Growth": 79,
+      "Lip Swelling": 85,
+      "Toothache": 72
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -211,13 +211,13 @@
       "Vomiting"
     ],
     "symptom_frequency": {
-      "Dizziness": 57,
-      "Nausea": 83,
-      "Neck Pain": 60,
-      "Headache": 63,
-      "Painful Urination": 100,
-      "Vomiting": 60,
-      "Low Back Pain": 60
+      "Dizziness": 80,
+      "Nausea": 117,
+      "Neck Pain": 84,
+      "Headache": 89,
+      "Painful Urination": 140,
+      "Vomiting": 84,
+      "Low Back Pain": 84
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -356,14 +356,14 @@
       "Palpitations"
     ],
     "symptom_frequency": {
-      "Shortness Of Breath": 100,
-      "Irregular Heartbeat": 78,
-      "Fainting": 71,
-      "Increased Heart Rate": 89,
-      "Dizziness": 72,
-      "Palpitations": 69,
-      "Weakness": 60,
-      "Decreased Heart Rate": 63
+      "Shortness Of Breath": 117,
+      "Irregular Heartbeat": 92,
+      "Fainting": 84,
+      "Increased Heart Rate": 105,
+      "Dizziness": 85,
+      "Palpitations": 81,
+      "Weakness": 71,
+      "Decreased Heart Rate": 74
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -426,7 +426,7 @@
   "Eating Disorder": {
     "symptoms": [
       "Abusing Alcohol",
-      "Acne",
+      "Acne Or Pimples",
       "Anxiety And Nervousness",
       "Decreased Appetite",
       "Depression",
@@ -442,7 +442,7 @@
       "Decreased Appetite": 51,
       "Anxiety And Nervousness": 57,
       "Depression": 54,
-      "Acne": 66,
+      "Acne Or Pimples": 66,
       "Weight Gain": 52,
       "Difficulty Eating": 50
     },
@@ -536,7 +536,7 @@
   },
   "Chronic Pain Disorder": {
     "symptoms": [
-      "Muscle Pain",
+      "Ache All Over",
       "Back Pain",
       "Headache",
       "Hip Pain",
@@ -556,7 +556,7 @@
       "Headache": 50,
       "Knee Pain": 49,
       "Sharp Abdominal Pain": 50,
-      "Muscle Pain": 47,
+      "Ache All Over": 47,
       "Back Pain": 41
     },
     "sources": [
@@ -656,13 +656,13 @@
       "Joint Pain"
     ],
     "symptom_frequency": {
-      "Wrist Swelling": 100,
-      "Hand Or Finger Stiffness Or Tightness": 58,
-      "Skin Growth": 53,
-      "Joint Pain": 64,
-      "Hand Or Finger Pain": 65,
-      "Wrist Pain": 61,
-      "Hand Or Finger Swelling": 66
+      "Wrist Swelling": 112,
+      "Hand Or Finger Stiffness Or Tightness": 65,
+      "Skin Growth": 60,
+      "Joint Pain": 72,
+      "Hand Or Finger Pain": 73,
+      "Wrist Pain": 69,
+      "Hand Or Finger Swelling": 74
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -752,13 +752,13 @@
       "Jaundice"
     ],
     "symptom_frequency": {
-      "Sharp Chest Pain": 62,
-      "Dizziness": 56,
-      "Jaundice": 100,
-      "Shortness Of Breath": 74,
-      "Sharp Abdominal Pain": 62,
-      "Fatigue": 61,
-      "Chest Tightness": 57
+      "Sharp Chest Pain": 88,
+      "Dizziness": 79,
+      "Jaundice": 141,
+      "Shortness Of Breath": 105,
+      "Sharp Abdominal Pain": 88,
+      "Fatigue": 87,
+      "Chest Tightness": 81
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -774,12 +774,12 @@
       "Vomiting"
     ],
     "symptom_frequency": {
-      "Depressive Or Psychotic Symptoms": 77,
-      "Dizziness": 93,
-      "Irritable Infant": 100,
-      "Vomiting": 92,
-      "Facial Pain": 87,
-      "Headache": 66
+      "Depressive Or Psychotic Symptoms": 85,
+      "Dizziness": 102,
+      "Irritable Infant": 109,
+      "Vomiting": 101,
+      "Facial Pain": 95,
+      "Headache": 72
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -815,13 +815,14 @@
   },
   "Fibromyalgia": {
     "symptoms": [
-      "Muscle Pain",
+      "Ache All Over",
       "Arm Pain",
       "Back Pain",
       "Headache",
       "Hip Pain",
       "Leg Pain",
       "Low Back Pain",
+      "Muscle Pain",
       "Neck Pain",
       "Sharp Chest Pain"
     ],
@@ -831,6 +832,7 @@
       "Arm Pain": 46,
       "Low Back Pain": 74,
       "Muscle Pain": 58,
+      "Ache All Over": 37,
       "Sharp Chest Pain": 48,
       "Neck Pain": 46,
       "Back Pain": 57,
@@ -961,7 +963,7 @@
   },
   "Thrombophlebitis": {
     "symptoms": [
-      "Muscle Pain",
+      "Ache All Over",
       "Arm Pain",
       "Arm Swelling",
       "Foot Or Toe Pain",
@@ -975,7 +977,7 @@
       "Skin Swelling": 68,
       "Leg Pain": 54,
       "Arm Pain": 51,
-      "Muscle Pain": 49,
+      "Ache All Over": 49,
       "Foot Or Toe Pain": 56,
       "Leg Swelling": 45,
       "Arm Swelling": 59,
@@ -1419,7 +1421,7 @@
     "symptoms": [
       "Groin Mass",
       "Sharp Abdominal Pain",
-      "Muscle Pain",
+      "Ache All Over",
       "Lower Abdominal Pain",
       "Skin Swelling",
       "Pelvic Pain"
@@ -1428,7 +1430,7 @@
       "Skin Swelling": 63,
       "Sharp Abdominal Pain": 38,
       "Lower Abdominal Pain": 38,
-      "Muscle Pain": 33,
+      "Ache All Over": 33,
       "Pelvic Pain": 35,
       "Groin Mass": 37
     },
@@ -1446,12 +1448,12 @@
       "Diminished Vision"
     ],
     "symptom_frequency": {
-      "Pus Draining From Ear": 100,
-      "Diminished Vision": 65,
-      "Symptoms Of Eye": 64,
-      "Foreign Body Sensation In Eye": 83,
-      "Pain In Eye": 74,
-      "Spots Or Clouds In Vision": 58
+      "Pus Draining From Ear": 117,
+      "Diminished Vision": 77,
+      "Symptoms Of Eye": 76,
+      "Foreign Body Sensation In Eye": 98,
+      "Pain In Eye": 87,
+      "Spots Or Clouds In Vision": 69
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -1497,12 +1499,12 @@
       "Nasal Congestion"
     ],
     "symptom_frequency": {
-      "Nasal Congestion": 98,
-      "Diminished Hearing": 100,
-      "Dizziness": 70,
-      "Facial Pain": 59,
-      "Cough": 94,
-      "Ear Pain": 65
+      "Nasal Congestion": 112,
+      "Diminished Hearing": 114,
+      "Dizziness": 80,
+      "Facial Pain": 68,
+      "Cough": 108,
+      "Ear Pain": 75
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -1510,7 +1512,7 @@
   },
   "Lung Contusion": {
     "symptoms": [
-      "Muscle Pain",
+      "Ache All Over",
       "Sharp Chest Pain",
       "Shortness Of Breath",
       "Back Pain"
@@ -1518,7 +1520,7 @@
     "symptom_frequency": {
       "Shortness Of Breath": 15,
       "Sharp Chest Pain": 12,
-      "Muscle Pain": 11,
+      "Ache All Over": 11,
       "Back Pain": 9
     },
     "sources": [
@@ -1581,13 +1583,13 @@
       "Nasal Congestion"
     ],
     "symptom_frequency": {
-      "Sharp Chest Pain": 62,
-      "Nasal Congestion": 63,
-      "Paresthesia": 100,
-      "Dizziness": 92,
-      "Cough": 68,
-      "Fever": 61,
-      "Shortness Of Breath": 60
+      "Sharp Chest Pain": 95,
+      "Nasal Congestion": 96,
+      "Paresthesia": 151,
+      "Dizziness": 140,
+      "Cough": 103,
+      "Fever": 93,
+      "Shortness Of Breath": 92
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -1633,12 +1635,12 @@
       "Vomiting"
     ],
     "symptom_frequency": {
-      "Lump In Throat": 95,
-      "Difficulty In Swallowing": 68,
-      "Recent Weight Loss": 100,
-      "Sharp Abdominal Pain": 55,
-      "Vomiting": 63,
-      "Vomiting Blood": 77
+      "Lump In Throat": 99,
+      "Difficulty In Swallowing": 71,
+      "Recent Weight Loss": 104,
+      "Sharp Abdominal Pain": 58,
+      "Vomiting": 66,
+      "Vomiting Blood": 81
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -1676,13 +1678,13 @@
       "Allergic Reaction"
     ],
     "symptom_frequency": {
-      "Cough": 100,
-      "Sharp Abdominal Pain": 59,
-      "Vomiting": 68,
-      "Allergic Reaction": 60,
-      "Nasal Congestion": 63,
-      "Flatulence": 99,
-      "Diarrhea": 66
+      "Cough": 136,
+      "Sharp Abdominal Pain": 81,
+      "Vomiting": 93,
+      "Allergic Reaction": 82,
+      "Nasal Congestion": 86,
+      "Flatulence": 135,
+      "Diarrhea": 91
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -1691,7 +1693,7 @@
   "Viral Warts": {
     "symptoms": [
       "Abnormal Appearing Skin",
-      "Acne",
+      "Acne Or Pimples",
       "Bumps On Penis",
       "Lip Swelling",
       "Skin Growth",
@@ -1709,7 +1711,7 @@
       "Warts": 55,
       "Skin Lesion": 49,
       "Bumps On Penis": 52,
-      "Acne": 41
+      "Acne Or Pimples": 41
     },
     "sources": [
       "mendeley_2023",
@@ -1721,7 +1723,7 @@
       "Sweating",
       "Cough",
       "Fever",
-      "Acne",
+      "Acne Or Pimples",
       "Warts"
     ],
     "symptom_frequency": {
@@ -1729,7 +1731,7 @@
       "Fever": 15,
       "Warts": 18,
       "Sweating": 12,
-      "Acne": 11
+      "Acne Or Pimples": 11
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -1767,7 +1769,7 @@
   },
   "Pilonidal Cyst": {
     "symptoms": [
-      "Muscle Pain",
+      "Ache All Over",
       "Bones Are Painful",
       "Irregular Appearing Scalp",
       "Lower Body Pain",
@@ -1784,7 +1786,7 @@
       "Pain Of The Anus": 56,
       "Lower Body Pain": 49,
       "Irregular Appearing Scalp": 72,
-      "Muscle Pain": 48
+      "Ache All Over": 48
     },
     "sources": [
       "mendeley_2023",
@@ -1831,7 +1833,7 @@
   },
   "Alopecia": {
     "symptoms": [
-      "Acne",
+      "Acne Or Pimples",
       "Feeling Ill",
       "Irregular Appearing Scalp",
       "Itching Of Skin",
@@ -1842,7 +1844,7 @@
     ],
     "symptom_frequency": {
       "Feeling Ill": 53,
-      "Acne": 72,
+      "Acne Or Pimples": 72,
       "Irregular Appearing Scalp": 54,
       "Itching Of Skin": 74,
       "Too Little Hair": 50,
@@ -2292,7 +2294,7 @@
   },
   "Open Wound Of The Neck": {
     "symptoms": [
-      "Muscle Pain",
+      "Ache All Over",
       "Peripheral Edema",
       "Skin Lesion",
       "Abnormal Appearing Skin",
@@ -2302,7 +2304,7 @@
       "Skin Swelling": 30,
       "Skin Lesion": 20,
       "Peripheral Edema": 19,
-      "Muscle Pain": 21,
+      "Ache All Over": 21,
       "Abnormal Appearing Skin": 17
     },
     "sources": [
@@ -2360,7 +2362,7 @@
   },
   "Abdominal Hernia": {
     "symptoms": [
-      "Muscle Pain",
+      "Ache All Over",
       "Groin Mass",
       "Irregular Belly Button",
       "Lower Abdominal Pain",
@@ -2379,7 +2381,7 @@
       "Swollen Abdomen": 57,
       "Regurgitation.1": 50,
       "Irregular Belly Button": 60,
-      "Muscle Pain": 52,
+      "Ache All Over": 52,
       "Sharp Abdominal Pain": 62,
       "Upper Abdominal Pain": 47
     },
@@ -2400,14 +2402,14 @@
       "Lack Of Growth"
     ],
     "symptom_frequency": {
-      "Lack Of Growth": 91,
-      "Problems With Movement": 63,
-      "Infant Feeding Problem": 100,
-      "Blindness": 92,
-      "Cramps And Spasms": 66,
-      "Seizures": 63,
-      "Fatigue": 0,
-      "Difficulty Breathing": 0
+      "Lack Of Growth": 102,
+      "Problems With Movement": 71,
+      "Infant Feeding Problem": 112,
+      "Blindness": 104,
+      "Cramps And Spasms": 74,
+      "Seizures": 71,
+      "Fatigue": 1,
+      "Difficulty Breathing": 1
     },
     "sources": [
       "kaggle_dhivyeshrk",
@@ -2765,6 +2767,42 @@
       "kaggle_dhivyeshrk"
     ]
   },
+  "Chronic Obstructive Pulmonary Disease (Copd)": {
+    "symptoms": [
+      "Sore Throat",
+      "Cough",
+      "Coryza",
+      "Coughing Up Sputum",
+      "Fever",
+      "Fatigue",
+      "Chest Tightness",
+      "Difficulty Breathing",
+      "Sharp Chest Pain",
+      "Shortness Of Breath",
+      "Nasal Congestion",
+      "Congestion In Chest",
+      "Wheezing"
+    ],
+    "symptom_frequency": {
+      "Sharp Chest Pain": 628,
+      "Chest Tightness": 438,
+      "Cough": 478,
+      "Nasal Congestion": 472,
+      "Coughing Up Sputum": 477,
+      "Coryza": 483,
+      "Congestion In Chest": 454,
+      "Shortness Of Breath": 440,
+      "Sore Throat": 450,
+      "Wheezing": 470,
+      "Fever": 453,
+      "Fatigue": 4,
+      "Difficulty Breathing": 4
+    },
+    "sources": [
+      "kaggle_dhivyeshrk",
+      "kaggle_uom190346a"
+    ]
+  },
   "Dislocation Of The Elbow": {
     "symptoms": [
       "Depression",
@@ -2790,7 +2828,7 @@
   },
   "Spondylosis": {
     "symptoms": [
-      "Muscle Pain",
+      "Ache All Over",
       "Arm Pain",
       "Back Pain",
       "Hip Pain",
@@ -2815,7 +2853,7 @@
       "Paresthesia": 51,
       "Shoulder Pain": 51,
       "Lower Body Pain": 46,
-      "Muscle Pain": 48
+      "Ache All Over": 48
     },
     "sources": [
       "mendeley_2023",
@@ -2907,6 +2945,29 @@
       "Hand Or Finger Swelling": 35,
       "Abnormal Appearing Skin": 16,
       "Leg Pain": 28
+    },
+    "sources": [
+      "kaggle_dhivyeshrk"
+    ]
+  },
+  "Deep Vein Thrombosis (Dvt)": {
+    "symptoms": [
+      "Leg Cramps Or Spasms",
+      "Leg Stiffness Or Tightness",
+      "Leg Swelling",
+      "Leg Pain",
+      "Foot Or Toe Swelling",
+      "Arm Swelling",
+      "Abnormal Appearing Skin"
+    ],
+    "symptom_frequency": {
+      "Abnormal Appearing Skin": 166,
+      "Leg Cramps Or Spasms": 184,
+      "Leg Stiffness Or Tightness": 164,
+      "Leg Pain": 128,
+      "Arm Swelling": 162,
+      "Foot Or Toe Swelling": 122,
+      "Leg Swelling": 127
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -3101,12 +3162,39 @@
       "Palpitations"
     ],
     "symptom_frequency": {
-      "Shortness Of Breath": 78,
-      "Chest Tightness": 94,
-      "Palpitations": 100,
-      "Sharp Abdominal Pain": 88,
-      "Sharp Chest Pain": 68,
-      "Lower Body Pain": 95
+      "Shortness Of Breath": 92,
+      "Chest Tightness": 110,
+      "Palpitations": 117,
+      "Sharp Abdominal Pain": 103,
+      "Sharp Chest Pain": 80,
+      "Lower Body Pain": 112
+    },
+    "sources": [
+      "kaggle_dhivyeshrk"
+    ]
+  },
+  "Attention Deficit Hyperactivity Disorder (Adhd)": {
+    "symptoms": [
+      "Temper Problems",
+      "Anxiety And Nervousness",
+      "Lack Of Growth",
+      "Depression",
+      "Antisocial Behavior",
+      "Depressive Or Psychotic Symptoms",
+      "Restlessness",
+      "Drug Abuse",
+      "Hostile Behavior"
+    ],
+    "symptom_frequency": {
+      "Depression": 264,
+      "Depressive Or Psychotic Symptoms": 249,
+      "Lack Of Growth": 334,
+      "Hostile Behavior": 350,
+      "Temper Problems": 263,
+      "Antisocial Behavior": 264,
+      "Anxiety And Nervousness": 247,
+      "Drug Abuse": 323,
+      "Restlessness": 246
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -3231,7 +3319,7 @@
   "Complex Regional Pain Syndrome": {
     "symptoms": [
       "Abnormal Involuntary Movements",
-      "Muscle Pain",
+      "Ache All Over",
       "Arm Pain",
       "Back Pain",
       "Foot Or Toe Pain",
@@ -3247,7 +3335,7 @@
       "Leg Pain": 53,
       "Hand Or Finger Pain": 58,
       "Foot Or Toe Pain": 54,
-      "Muscle Pain": 52,
+      "Ache All Over": 52,
       "Arm Pain": 52,
       "Back Pain": 49,
       "Neck Pain": 58,
@@ -3365,13 +3453,13 @@
       "Abnormal Breathing Sounds"
     ],
     "symptom_frequency": {
-      "Anxiety And Nervousness": 100,
-      "Insomnia": 64,
-      "Abnormal Involuntary Movements": 78,
-      "Sleepiness": 80,
-      "Fatigue": 57,
-      "Delusions Or Hallucinations": 57,
-      "Abnormal Breathing Sounds": 63
+      "Anxiety And Nervousness": 166,
+      "Insomnia": 107,
+      "Abnormal Involuntary Movements": 131,
+      "Sleepiness": 133,
+      "Fatigue": 96,
+      "Delusions Or Hallucinations": 96,
+      "Abnormal Breathing Sounds": 105
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -3681,12 +3769,12 @@
       "Headache"
     ],
     "symptom_frequency": {
-      "Leg Pain": 70,
-      "Hip Pain": 100,
-      "Headache": 89,
-      "Loss Of Sensation": 57,
-      "Knee Pain": 65,
-      "Problems With Movement": 93
+      "Leg Pain": 80,
+      "Hip Pain": 113,
+      "Headache": 101,
+      "Loss Of Sensation": 65,
+      "Knee Pain": 74,
+      "Problems With Movement": 106
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -3720,7 +3808,7 @@
   },
   "Neuralgia": {
     "symptoms": [
-      "Muscle Pain",
+      "Ache All Over",
       "Arm Pain",
       "Back Pain",
       "Headache",
@@ -3737,7 +3825,7 @@
       "Arm Pain": 49,
       "Neck Pain": 57,
       "Loss Of Sensation": 49,
-      "Muscle Pain": 52,
+      "Ache All Over": 52,
       "Leg Pain": 58,
       "Back Pain": 48,
       "Shoulder Pain": 49,
@@ -3760,14 +3848,14 @@
       "Side Pain"
     ],
     "symptom_frequency": {
-      "Retention Of Urine": 100,
-      "Blood In Urine": 60,
-      "Skin Growth": 54,
-      "Kidney Mass": 59,
-      "Sharp Abdominal Pain": 60,
-      "Low Back Pain": 59,
-      "Back Pain": 64,
-      "Side Pain": 67
+      "Retention Of Urine": 164,
+      "Blood In Urine": 100,
+      "Skin Growth": 89,
+      "Kidney Mass": 97,
+      "Sharp Abdominal Pain": 100,
+      "Low Back Pain": 98,
+      "Back Pain": 106,
+      "Side Pain": 111
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -3830,6 +3918,35 @@
       "Weakness": 11,
       "Loss Of Sensation": 11,
       "Problems With Movement": 15
+    },
+    "sources": [
+      "kaggle_dhivyeshrk"
+    ]
+  },
+  "Gastroesophageal Reflux Disease (Gerd)": {
+    "symptoms": [
+      "Cough",
+      "Hoarse Voice",
+      "Sharp Abdominal Pain",
+      "Chest Tightness",
+      "Nausea",
+      "Burning Abdominal Pain",
+      "Sharp Chest Pain",
+      "Difficulty In Swallowing",
+      "Regurgitation",
+      "Regurgitation.1"
+    ],
+    "symptom_frequency": {
+      "Cough": 338,
+      "Difficulty In Swallowing": 289,
+      "Sharp Abdominal Pain": 245,
+      "Burning Abdominal Pain": 219,
+      "Hoarse Voice": 224,
+      "Regurgitation": 232,
+      "Regurgitation.1": 232,
+      "Sharp Chest Pain": 228,
+      "Nausea": 209,
+      "Chest Tightness": 231
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -3935,13 +4052,13 @@
       "Slurring Words"
     ],
     "symptom_frequency": {
-      "Shortness Of Breath": 100,
-      "Dizziness": 99,
-      "Double Vision": 67,
-      "Slurring Words": 56,
-      "Coughing Up Sputum": 74,
-      "Fatigue": 63,
-      "Weakness": 66
+      "Shortness Of Breath": 122,
+      "Dizziness": 121,
+      "Double Vision": 82,
+      "Slurring Words": 69,
+      "Coughing Up Sputum": 91,
+      "Fatigue": 78,
+      "Weakness": 81
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -4058,13 +4175,13 @@
       "Irregular Heartbeat"
     ],
     "symptom_frequency": {
-      "Anxiety And Nervousness": 100,
-      "Sharp Chest Pain": 95,
-      "Chest Tightness": 100,
-      "Loss Of Sensation": 69,
-      "Shortness Of Breath": 70,
-      "Irregular Heartbeat": 91,
-      "Weakness": 71
+      "Anxiety And Nervousness": 149,
+      "Sharp Chest Pain": 142,
+      "Chest Tightness": 149,
+      "Loss Of Sensation": 103,
+      "Shortness Of Breath": 105,
+      "Irregular Heartbeat": 137,
+      "Weakness": 107
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -4125,12 +4242,12 @@
       "Hostile Behavior"
     ],
     "symptom_frequency": {
-      "Depression": 73,
-      "Drug Abuse": 84,
-      "Depressive Or Psychotic Symptoms": 66,
-      "Insomnia": 86,
-      "Hostile Behavior": 100,
-      "Sleepiness": 57
+      "Depression": 75,
+      "Drug Abuse": 86,
+      "Depressive Or Psychotic Symptoms": 68,
+      "Insomnia": 88,
+      "Hostile Behavior": 102,
+      "Sleepiness": 59
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -4383,12 +4500,12 @@
       "Difficulty In Swallowing"
     ],
     "symptom_frequency": {
-      "Irregular Heartbeat": 100,
-      "Difficulty In Swallowing": 100,
-      "Leg Pain": 95,
-      "Sharp Chest Pain": 75,
-      "Shoulder Pain": 68,
-      "Fatigue": 67
+      "Irregular Heartbeat": 105,
+      "Difficulty In Swallowing": 105,
+      "Leg Pain": 100,
+      "Sharp Chest Pain": 79,
+      "Shoulder Pain": 72,
+      "Fatigue": 71
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -4434,14 +4551,14 @@
       "Symptoms Of Bladder"
     ],
     "symptom_frequency": {
-      "Groin Mass": 60,
-      "Mass In Scrotum": 100,
-      "Blood In Urine": 58,
-      "Excessive Urination At Night": 57,
-      "Symptoms Of Bladder": 54,
-      "Bladder Mass": 59,
-      "Retention Of Urine": 65,
-      "Fatigue": 0
+      "Groin Mass": 69,
+      "Mass In Scrotum": 114,
+      "Blood In Urine": 67,
+      "Excessive Urination At Night": 66,
+      "Symptoms Of Bladder": 62,
+      "Bladder Mass": 68,
+      "Retention Of Urine": 75,
+      "Fatigue": 1
     },
     "sources": [
       "kaggle_dhivyeshrk",
@@ -4512,8 +4629,8 @@
       "Drug Abuse"
     ],
     "symptom_frequency": {
-      "Sharp Chest Pain": 100,
-      "Drug Abuse": 100
+      "Sharp Chest Pain": 1,
+      "Drug Abuse": 1
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -4607,7 +4724,7 @@
   },
   "Varicose Veins": {
     "symptoms": [
-      "Muscle Pain",
+      "Ache All Over",
       "Leg Cramps Or Spasms",
       "Leg Lump Or Mass",
       "Leg Pain",
@@ -4622,7 +4739,7 @@
       "Lymphedema": 42,
       "Leg Lump Or Mass": 47,
       "Leg Cramps Or Spasms": 75,
-      "Muscle Pain": 51,
+      "Ache All Over": 51,
       "Skin Lesion": 52,
       "Peripheral Edema": 47
     },
@@ -4716,13 +4833,13 @@
   "Hirsutism": {
     "symptoms": [
       "Unwanted Hair",
-      "Acne",
+      "Acne Or Pimples",
       "Apnea",
       "Abnormal Appearing Skin"
     ],
     "symptom_frequency": {
       "Abnormal Appearing Skin": 30,
-      "Acne": 26,
+      "Acne Or Pimples": 26,
       "Unwanted Hair": 22,
       "Apnea": 24
     },
@@ -4839,8 +4956,8 @@
       "Elbow Weakness"
     ],
     "symptom_frequency": {
-      "Anxiety And Nervousness": 100,
-      "Elbow Weakness": 100
+      "Anxiety And Nervousness": 1,
+      "Elbow Weakness": 1
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -4873,7 +4990,7 @@
   "Dermatitis Due To Sun Exposure": {
     "symptoms": [
       "Abnormal Appearing Skin",
-      "Acne",
+      "Acne Or Pimples",
       "Irregular Appearing Scalp",
       "Lack Of Growth",
       "Skin Dryness, Peeling, Scaliness, Or Roughness",
@@ -4891,7 +5008,7 @@
       "Skin Moles": 48,
       "Abnormal Appearing Skin": 45,
       "Skin Lesion": 49,
-      "Acne": 59
+      "Acne Or Pimples": 59
     },
     "sources": [
       "mendeley_2023",
@@ -4929,12 +5046,12 @@
       "Side Pain"
     ],
     "symptom_frequency": {
-      "Sharp Chest Pain": 93,
-      "Retention Of Urine": 89,
-      "Frequent Urination": 100,
-      "Back Pain": 80,
-      "Side Pain": 72,
-      "Sharp Abdominal Pain": 66
+      "Sharp Chest Pain": 104,
+      "Retention Of Urine": 99,
+      "Frequent Urination": 111,
+      "Back Pain": 89,
+      "Side Pain": 81,
+      "Sharp Abdominal Pain": 74
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -4961,7 +5078,7 @@
   },
   "Pterygium": {
     "symptoms": [
-      "Acne",
+      "Acne Or Pimples",
       "Diminished Vision",
       "Eye Redness",
       "Foreign Body Sensation In Eye",
@@ -4974,7 +5091,7 @@
       "Foreign Body Sensation In Eye": 68,
       "Spots Or Clouds In Vision": 55,
       "Eye Redness": 57,
-      "Acne": 82,
+      "Acne Or Pimples": 82,
       "Symptoms Of Eye": 80,
       "Lacrimation": 74
     },
@@ -4986,7 +5103,7 @@
   "Fungal Infection Of The Skin": {
     "symptoms": [
       "Abnormal Appearing Skin",
-      "Acne",
+      "Acne Or Pimples",
       "Irregular Appearing Scalp",
       "Itching Of Skin",
       "Itchy Scalp",
@@ -4997,7 +5114,7 @@
       "Too Little Hair"
     ],
     "symptom_frequency": {
-      "Acne": 67,
+      "Acne Or Pimples": 67,
       "Irregular Appearing Scalp": 46,
       "Itching Of Skin": 51,
       "Itchy Scalp": 64,
@@ -5070,12 +5187,12 @@
       "Premenstrual Tension Or Irritability"
     ],
     "symptom_frequency": {
-      "Depressive Or Psychotic Symptoms": 93,
-      "Lower Abdominal Pain": 100,
-      "Back Pain": 86,
-      "Unpredictable Menstruation": 62,
-      "Premenstrual Tension Or Irritability": 53,
-      "Headache": 64
+      "Depressive Or Psychotic Symptoms": 108,
+      "Lower Abdominal Pain": 115,
+      "Back Pain": 99,
+      "Unpredictable Menstruation": 72,
+      "Premenstrual Tension Or Irritability": 61,
+      "Headache": 74
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -5092,13 +5209,13 @@
       "Swollen Eye"
     ],
     "symptom_frequency": {
-      "Diminished Hearing": 100,
-      "Peripheral Edema": 85,
-      "Eye Redness": 65,
-      "Fever": 58,
-      "Pain In Eye": 67,
-      "Swollen Eye": 63,
-      "Symptoms Of Eye": 59
+      "Diminished Hearing": 140,
+      "Peripheral Edema": 119,
+      "Eye Redness": 92,
+      "Fever": 82,
+      "Pain In Eye": 94,
+      "Swollen Eye": 89,
+      "Symptoms Of Eye": 83
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -5206,13 +5323,13 @@
       "Difficulty Breathing"
     ],
     "symptom_frequency": {
-      "Chest Tightness": 100,
-      "Cough": 62,
-      "Fainting": 64,
-      "Difficulty Breathing": 56,
-      "Sharp Chest Pain": 65,
-      "Fever": 67,
-      "Shortness Of Breath": 65
+      "Chest Tightness": 102,
+      "Cough": 64,
+      "Fainting": 66,
+      "Difficulty Breathing": 58,
+      "Sharp Chest Pain": 67,
+      "Fever": 69,
+      "Shortness Of Breath": 67
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -5396,13 +5513,13 @@
       "Arm Pain"
     ],
     "symptom_frequency": {
-      "Arm Pain": 61,
-      "Arm Stiffness Or Tightness": 61,
-      "Neck Swelling": 100,
-      "Shoulder Swelling": 77,
-      "Shoulder Stiffness Or Tightness": 55,
-      "Shoulder Pain": 64,
-      "Bones Are Painful": 63
+      "Arm Pain": 83,
+      "Arm Stiffness Or Tightness": 83,
+      "Neck Swelling": 135,
+      "Shoulder Swelling": 105,
+      "Shoulder Stiffness Or Tightness": 75,
+      "Shoulder Pain": 87,
+      "Bones Are Painful": 86
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -5571,7 +5688,7 @@
   "Seborrheic Dermatitis": {
     "symptoms": [
       "Abnormal Appearing Skin",
-      "Acne",
+      "Acne Or Pimples",
       "Dry Or Flaky Scalp",
       "Irregular Appearing Scalp",
       "Itching Of Skin",
@@ -5583,7 +5700,7 @@
       "Too Little Hair"
     ],
     "symptom_frequency": {
-      "Acne": 67,
+      "Acne Or Pimples": 67,
       "Irregular Appearing Scalp": 50,
       "Symptoms Of The Face": 59,
       "Itching Of Skin": 53,
@@ -6167,13 +6284,13 @@
       "Palpitations"
     ],
     "symptom_frequency": {
-      "Shortness Of Breath": 54,
-      "Chest Tightness": 63,
-      "Throat Feels Tight": 100,
-      "Increased Heart Rate": 57,
-      "Dizziness": 76,
-      "Palpitations": 58,
-      "Sharp Chest Pain": 57
+      "Shortness Of Breath": 80,
+      "Chest Tightness": 93,
+      "Throat Feels Tight": 147,
+      "Increased Heart Rate": 84,
+      "Dizziness": 113,
+      "Palpitations": 86,
+      "Sharp Chest Pain": 84
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -6275,13 +6392,38 @@
       "Skin Swelling"
     ],
     "symptom_frequency": {
-      "Sore Throat": 65,
-      "Skin Swelling": 100,
-      "Vaginal Itching": 57,
-      "Mouth Ulcer": 85,
-      "Skin Rash": 65,
-      "Lip Sore": 60,
-      "Lip Swelling": 86
+      "Sore Throat": 105,
+      "Skin Swelling": 161,
+      "Vaginal Itching": 92,
+      "Mouth Ulcer": 138,
+      "Skin Rash": 106,
+      "Lip Sore": 98,
+      "Lip Swelling": 139
+    },
+    "sources": [
+      "kaggle_dhivyeshrk"
+    ]
+  },
+  "Premature Ventricular Contractions (Pvcs)": {
+    "symptoms": [
+      "Sleepiness",
+      "Chest Tightness",
+      "Irregular Heartbeat",
+      "Sharp Chest Pain",
+      "Shortness Of Breath",
+      "Fainting",
+      "Palpitations",
+      "Impotence"
+    ],
+    "symptom_frequency": {
+      "Shortness Of Breath": 253,
+      "Sharp Chest Pain": 177,
+      "Chest Tightness": 178,
+      "Palpitations": 179,
+      "Irregular Heartbeat": 175,
+      "Impotence": 222,
+      "Sleepiness": 218,
+      "Fainting": 170
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -6316,13 +6458,13 @@
       "Lack Of Growth"
     ],
     "symptom_frequency": {
-      "Depressive Or Psychotic Symptoms": 60,
-      "Abnormal Involuntary Movements": 100,
-      "Headache": 66,
-      "Problems With Movement": 56,
-      "Lack Of Growth": 70,
-      "Seizures": 50,
-      "Vomiting": 60
+      "Depressive Or Psychotic Symptoms": 84,
+      "Abnormal Involuntary Movements": 140,
+      "Headache": 93,
+      "Problems With Movement": 79,
+      "Lack Of Growth": 98,
+      "Seizures": 71,
+      "Vomiting": 85
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -6422,7 +6564,7 @@
   "Intertrigo (Skin Condition)": {
     "symptoms": [
       "Skin Rash",
-      "Acne",
+      "Acne Or Pimples",
       "Skin Lesion",
       "Abnormal Appearing Skin",
       "Skin Swelling",
@@ -6431,7 +6573,7 @@
     "symptom_frequency": {
       "Skin Swelling": 59,
       "Skin Lesion": 83,
-      "Acne": 89,
+      "Acne Or Pimples": 89,
       "Skin Rash": 62,
       "Abnormal Appearing Skin": 58,
       "Skin Dryness, Peeling, Scaliness, Or Roughness": 53
@@ -6553,12 +6695,12 @@
       "Vaginal Pain"
     ],
     "symptom_frequency": {
-      "Sharp Abdominal Pain": 69,
-      "Vaginal Discharge": 57,
-      "Problems With Movement": 100,
-      "Vaginal Pain": 84,
-      "Penile Discharge": 65,
-      "Vaginal Itching": 80
+      "Sharp Abdominal Pain": 79,
+      "Vaginal Discharge": 65,
+      "Problems With Movement": 113,
+      "Vaginal Pain": 96,
+      "Penile Discharge": 74,
+      "Vaginal Itching": 91
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -6566,7 +6708,7 @@
   },
   "Fracture Of The Rib": {
     "symptoms": [
-      "Muscle Pain",
+      "Ache All Over",
       "Back Mass Or Lump",
       "Back Pain",
       "Bones Are Painful",
@@ -6584,7 +6726,7 @@
       "Bones Are Painful": 53,
       "Side Pain": 47,
       "Shoulder Pain": 55,
-      "Muscle Pain": 52,
+      "Ache All Over": 52,
       "Back Mass Or Lump": 53,
       "Sharp Chest Pain": 59,
       "Rib Pain": 55,
@@ -6764,8 +6906,8 @@
       "Blood In Stool"
     ],
     "symptom_frequency": {
-      "Blood In Stool": 100,
-      "Fatigue": 100
+      "Blood In Stool": 1,
+      "Fatigue": 1
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -7394,14 +7536,14 @@
       "Regurgitation.1"
     ],
     "symptom_frequency": {
-      "Sharp Abdominal Pain": 80,
-      "Nausea": 70,
-      "Burning Abdominal Pain": 100,
-      "Upper Abdominal Pain": 89,
-      "Sharp Chest Pain": 89,
-      "Regurgitation": 72,
-      "Regurgitation.1": 72,
-      "Vomiting": 76
+      "Sharp Abdominal Pain": 110,
+      "Nausea": 97,
+      "Burning Abdominal Pain": 137,
+      "Upper Abdominal Pain": 123,
+      "Sharp Chest Pain": 123,
+      "Regurgitation": 100,
+      "Regurgitation.1": 100,
+      "Vomiting": 105
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -7465,13 +7607,13 @@
       "Bleeding Gums"
     ],
     "symptom_frequency": {
-      "Irregular Appearing Scalp": 100,
-      "Fatigue": 62,
-      "Bleeding Gums": 58,
-      "Sharp Chest Pain": 65,
-      "Blood In Stool": 59,
-      "Blood In Urine": 66,
-      "Nosebleed": 59
+      "Irregular Appearing Scalp": 112,
+      "Fatigue": 70,
+      "Bleeding Gums": 65,
+      "Sharp Chest Pain": 73,
+      "Blood In Stool": 67,
+      "Blood In Urine": 74,
+      "Nosebleed": 67
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -7785,6 +7927,31 @@
       "kaggle_dhivyeshrk"
     ]
   },
+  "Polycystic Ovarian Syndrome (Pcos)": {
+    "symptoms": [
+      "Hot Flashes",
+      "Infertility",
+      "Unpredictable Menstruation",
+      "Long Menstrual Periods",
+      "Absence Of Menstruation",
+      "Intermenstrual Bleeding",
+      "Weight Gain",
+      "Pelvic Pain"
+    ],
+    "symptom_frequency": {
+      "Hot Flashes": 222,
+      "Intermenstrual Bleeding": 131,
+      "Pelvic Pain": 135,
+      "Absence Of Menstruation": 187,
+      "Unpredictable Menstruation": 144,
+      "Weight Gain": 143,
+      "Long Menstrual Periods": 144,
+      "Infertility": 143
+    },
+    "sources": [
+      "kaggle_dhivyeshrk"
+    ]
+  },
   "Encephalitis": {
     "symptoms": [
       "Dizziness",
@@ -7862,13 +8029,13 @@
       "Vomiting"
     ],
     "symptom_frequency": {
-      "Sore Throat": 62,
-      "Throat Swelling": 100,
-      "Difficulty In Swallowing": 61,
-      "Vomiting": 59,
-      "Shortness Of Breath": 83,
-      "Cough": 58,
-      "Infant Spitting Up": 58
+      "Sore Throat": 86,
+      "Throat Swelling": 137,
+      "Difficulty In Swallowing": 84,
+      "Vomiting": 81,
+      "Shortness Of Breath": 114,
+      "Cough": 80,
+      "Infant Spitting Up": 80
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -7949,6 +8116,29 @@
       "merged_from_new"
     ]
   },
+  "Premature Atrial Contractions (Pacs)": {
+    "symptoms": [
+      "Dizziness",
+      "Fatigue",
+      "Muscle Swelling",
+      "Irregular Heartbeat",
+      "Shortness Of Breath",
+      "Fainting",
+      "Palpitations"
+    ],
+    "symptom_frequency": {
+      "Dizziness": 160,
+      "Palpitations": 125,
+      "Fainting": 160,
+      "Muscle Swelling": 147,
+      "Shortness Of Breath": 164,
+      "Irregular Heartbeat": 117,
+      "Fatigue": 115
+    },
+    "sources": [
+      "kaggle_dhivyeshrk"
+    ]
+  },
   "Hemiplegia": {
     "symptoms": [
       "Abnormal Involuntary Movements",
@@ -8000,8 +8190,8 @@
       "Wrist Pain"
     ],
     "symptom_frequency": {
-      "Wrist Pain": 100,
-      "Facial Pain": 100
+      "Wrist Pain": 1,
+      "Facial Pain": 1
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -8041,8 +8231,8 @@
       "Leg Swelling"
     ],
     "symptom_frequency": {
-      "Leg Pain": 100,
-      "Leg Swelling": 100
+      "Leg Pain": 1,
+      "Leg Swelling": 1
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -8256,7 +8446,7 @@
   "Fungal Infection Of The Hair": {
     "symptoms": [
       "Abnormal Appearing Skin",
-      "Acne",
+      "Acne Or Pimples",
       "Irregular Appearing Scalp",
       "Itching Of Skin",
       "Itchy Scalp",
@@ -8277,7 +8467,7 @@
       "Pelvic Pain": 54,
       "Skin Dryness, Peeling, Scaliness, Or Roughness": 49,
       "Skin Irritation": 54,
-      "Acne": 37,
+      "Acne Or Pimples": 37,
       "Itching Of Skin": 48,
       "Itchy Scalp": 59,
       "Skin Rash": 54
@@ -8426,6 +8616,33 @@
       "kaggle_dhivyeshrk"
     ]
   },
+  "Benign Paroxysmal Positional Vertical (Bppv)": {
+    "symptoms": [
+      "Dizziness",
+      "Problems With Movement",
+      "Weakness",
+      "Frontal Headache",
+      "Nausea",
+      "Irregular Heartbeat",
+      "Fainting",
+      "Headache",
+      "Vomiting"
+    ],
+    "symptom_frequency": {
+      "Irregular Heartbeat": 342,
+      "Vomiting": 229,
+      "Headache": 241,
+      "Weakness": 222,
+      "Dizziness": 231,
+      "Fainting": 302,
+      "Problems With Movement": 228,
+      "Frontal Headache": 221,
+      "Nausea": 232
+    },
+    "sources": [
+      "kaggle_dhivyeshrk"
+    ]
+  },
   "Blepharospasm": {
     "symptoms": [
       "Low Back Weakness",
@@ -8544,12 +8761,12 @@
   "Hemochromatosis": {
     "symptoms": [
       "Difficulty Speaking",
-      "Muscle Pain",
+      "Ache All Over",
       "Abnormal Appearing Skin"
     ],
     "symptom_frequency": {
       "Difficulty Speaking": 3,
-      "Muscle Pain": 2,
+      "Ache All Over": 2,
       "Abnormal Appearing Skin": 2
     },
     "sources": [
@@ -8638,7 +8855,7 @@
   "Atrophic Skin Condition": {
     "symptoms": [
       "Abnormal Appearing Skin",
-      "Acne",
+      "Acne Or Pimples",
       "Lip Swelling",
       "Skin Growth",
       "Skin Irritation",
@@ -8650,7 +8867,7 @@
     "symptom_frequency": {
       "Lip Swelling": 64,
       "Skin Lesion": 55,
-      "Acne": 83,
+      "Acne Or Pimples": 83,
       "Wrinkles On Skin": 46,
       "Skin Swelling": 53,
       "Skin Moles": 57,
@@ -8810,8 +9027,8 @@
       "Skin On Arm Or Hand Looks Infected"
     ],
     "symptom_frequency": {
-      "Wrist Swelling": 100,
-      "Skin On Arm Or Hand Looks Infected": 100
+      "Wrist Swelling": 1,
+      "Skin On Arm Or Hand Looks Infected": 1
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -8898,18 +9115,18 @@
     "symptoms": [
       "Knee Pain",
       "Hand Or Finger Stiffness Or Tightness",
-      "Muscle Pain",
+      "Ache All Over",
       "Sharp Chest Pain",
       "Bones Are Painful",
       "Leg Swelling"
     ],
     "symptom_frequency": {
-      "Bones Are Painful": 99,
-      "Leg Swelling": 86,
-      "Muscle Pain": 71,
-      "Hand Or Finger Stiffness Or Tightness": 100,
-      "Knee Pain": 89,
-      "Sharp Chest Pain": 72
+      "Bones Are Painful": 122,
+      "Leg Swelling": 107,
+      "Ache All Over": 88,
+      "Hand Or Finger Stiffness Or Tightness": 123,
+      "Knee Pain": 110,
+      "Sharp Chest Pain": 89
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -8944,12 +9161,12 @@
       "Decreased Appetite"
     ],
     "symptom_frequency": {
-      "Sharp Chest Pain": 100,
-      "Hand Or Finger Pain": 88,
-      "Arm Pain": 84,
-      "Decreased Appetite": 80,
-      "Shoulder Pain": 66,
-      "Loss Of Sensation": 92
+      "Sharp Chest Pain": 141,
+      "Hand Or Finger Pain": 125,
+      "Arm Pain": 119,
+      "Decreased Appetite": 114,
+      "Shoulder Pain": 94,
+      "Loss Of Sensation": 131
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -9125,7 +9342,7 @@
   "Skin Disorder": {
     "symptoms": [
       "Abnormal Appearing Skin",
-      "Acne",
+      "Acne Or Pimples",
       "Irregular Appearing Scalp",
       "Itching Of Skin",
       "Skin Dryness, Peeling, Scaliness, Or Roughness",
@@ -9141,7 +9358,7 @@
       "Itching Of Skin": 58,
       "Skin Irritation": 65,
       "Skin Swelling": 47,
-      "Acne": 51,
+      "Acne Or Pimples": 51,
       "Irregular Appearing Scalp": 45,
       "Skin Lesion": 54,
       "Skin Growth": 44,
@@ -9374,6 +9591,39 @@
       "merged_from_new"
     ]
   },
+  "Obstructive Sleep Apnea (Osa)": {
+    "symptoms": [
+      "Sweating",
+      "Sleepiness",
+      "Insomnia",
+      "Fatigue",
+      "Abnormal Involuntary Movements",
+      "Apnea",
+      "Shortness Of Breath",
+      "Difficulty In Swallowing",
+      "Abnormal Breathing Sounds",
+      "Mouth Dryness",
+      "Weight Gain",
+      "Difficulty Breathing"
+    ],
+    "symptom_frequency": {
+      "Shortness Of Breath": 575,
+      "Abnormal Involuntary Movements": 608,
+      "Difficulty In Swallowing": 600,
+      "Mouth Dryness": 630,
+      "Fatigue": 622,
+      "Insomnia": 599,
+      "Difficulty Breathing": 611,
+      "Sleepiness": 594,
+      "Apnea": 606,
+      "Abnormal Breathing Sounds": 609,
+      "Weight Gain": 605,
+      "Sweating": 620
+    },
+    "sources": [
+      "kaggle_dhivyeshrk"
+    ]
+  },
   "Hypokalemia": {
     "symptoms": [
       "Diarrhea",
@@ -9541,7 +9791,7 @@
   },
   "Arthritis Of The Hip": {
     "symptoms": [
-      "Muscle Pain",
+      "Ache All Over",
       "Back Pain",
       "Groin Pain",
       "Hip Pain",
@@ -9560,7 +9810,7 @@
       "Hip Stiffness Or Tightness": 52,
       "Back Pain": 44,
       "Low Back Pain": 48,
-      "Muscle Pain": 52,
+      "Ache All Over": 52,
       "Lower Body Pain": 46,
       "Joint Pain": 55,
       "Leg Pain": 45,
@@ -9645,8 +9895,8 @@
       "Skin Pain"
     ],
     "symptom_frequency": {
-      "Skin Lesion": 100,
-      "Skin Pain": 100
+      "Skin Lesion": 1,
+      "Skin Pain": 1
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -9710,7 +9960,7 @@
   },
   "Sickle Cell Crisis": {
     "symptoms": [
-      "Muscle Pain",
+      "Ache All Over",
       "Arm Pain",
       "Back Pain",
       "Burning Abdominal Pain",
@@ -9729,7 +9979,7 @@
       "Sharp Abdominal Pain": 54,
       "Vomiting": 64,
       "Back Pain": 47,
-      "Muscle Pain": 52,
+      "Ache All Over": 52,
       "Low Back Pain": 52,
       "Knee Pain": 49,
       "Arm Pain": 51,
@@ -10246,13 +10496,13 @@
       "Wheezing"
     ],
     "symptom_frequency": {
-      "Shortness Of Breath": 68,
-      "Sharp Chest Pain": 90,
-      "Dizziness": 100,
-      "Wheezing": 77,
-      "Headache": 90,
-      "Drainage In Throat": 58,
-      "Cough": 66
+      "Shortness Of Breath": 113,
+      "Sharp Chest Pain": 150,
+      "Dizziness": 165,
+      "Wheezing": 128,
+      "Headache": 149,
+      "Drainage In Throat": 96,
+      "Cough": 109
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -10312,13 +10562,13 @@
   "Acanthosis Nigricans": {
     "symptoms": [
       "Skin Growth",
-      "Acne",
+      "Acne Or Pimples",
       "Skin Lesion",
       "Weight Gain"
     ],
     "symptom_frequency": {
       "Skin Lesion": 19,
-      "Acne": 25,
+      "Acne Or Pimples": 25,
       "Weight Gain": 19,
       "Skin Growth": 26
     },
@@ -10405,6 +10655,39 @@
     "sources": [
       "mendeley_2023",
       "merged_from_new"
+    ]
+  },
+  "Benign Prostatic Hyperplasia (Bph)": {
+    "symptoms": [
+      "Retention Of Urine",
+      "Low Urine Output",
+      "Excessive Urination At Night",
+      "Frequent Urination",
+      "Involuntary Urination",
+      "Blood In Urine",
+      "Pain In Testicles",
+      "Hesitancy",
+      "Symptoms Of Prostate",
+      "Symptoms Of Bladder",
+      "Swelling Of Scrotum",
+      "Impotence"
+    ],
+    "symptom_frequency": {
+      "Retention Of Urine": 597,
+      "Swelling Of Scrotum": 605,
+      "Impotence": 608,
+      "Excessive Urination At Night": 596,
+      "Hesitancy": 598,
+      "Low Urine Output": 605,
+      "Pain In Testicles": 603,
+      "Involuntary Urination": 598,
+      "Blood In Urine": 617,
+      "Symptoms Of Bladder": 607,
+      "Symptoms Of Prostate": 629,
+      "Frequent Urination": 625
+    },
+    "sources": [
+      "kaggle_dhivyeshrk"
     ]
   },
   "Menopause": {
@@ -10718,13 +11001,13 @@
       "Vomiting"
     ],
     "symptom_frequency": {
-      "Dizziness": 90,
-      "Abnormal Involuntary Movements": 100,
-      "Vomiting": 58,
-      "Fever": 64,
-      "Diarrhea": 57,
-      "Sharp Abdominal Pain": 64,
-      "Nausea": 65
+      "Dizziness": 137,
+      "Abnormal Involuntary Movements": 151,
+      "Vomiting": 88,
+      "Fever": 98,
+      "Diarrhea": 87,
+      "Sharp Abdominal Pain": 97,
+      "Nausea": 99
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -10758,9 +11041,9 @@
       "Palpitations"
     ],
     "symptom_frequency": {
-      "Sharp Chest Pain": 100,
-      "Dizziness": 100,
-      "Palpitations": 100
+      "Sharp Chest Pain": 1,
+      "Dizziness": 1,
+      "Palpitations": 1
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -10867,7 +11150,7 @@
   },
   "Pancreatic Cancer": {
     "symptoms": [
-      "Muscle Pain",
+      "Ache All Over",
       "Arm Swelling",
       "Diarrhea",
       "Jaundice",
@@ -10878,7 +11161,7 @@
     "symptom_frequency": {
       "Jaundice": 51,
       "Nausea": 58,
-      "Muscle Pain": 74,
+      "Ache All Over": 74,
       "Stomach Bloating": 66,
       "Diarrhea": 54,
       "Sharp Abdominal Pain": 52,
@@ -11265,6 +11548,33 @@
       "merged_from_new"
     ]
   },
+  "Acute Respiratory Distress Syndrome (Ards)": {
+    "symptoms": [
+      "Cough",
+      "Chills",
+      "Fever",
+      "Wheezing",
+      "Chest Tightness",
+      "Depressive Or Psychotic Symptoms",
+      "Shortness Of Breath",
+      "Sharp Chest Pain",
+      "Difficulty Breathing"
+    ],
+    "symptom_frequency": {
+      "Shortness Of Breath": 222,
+      "Depressive Or Psychotic Symptoms": 231,
+      "Sharp Chest Pain": 235,
+      "Difficulty Breathing": 234,
+      "Cough": 228,
+      "Fever": 236,
+      "Chills": 337,
+      "Chest Tightness": 293,
+      "Wheezing": 235
+    },
+    "sources": [
+      "kaggle_dhivyeshrk"
+    ]
+  },
   "Toxic Multinodular Goiter": {
     "symptoms": [
       "Double Vision",
@@ -11331,13 +11641,13 @@
       "Impotence"
     ],
     "symptom_frequency": {
-      "Involuntary Urination": 100,
-      "Pain During Intercourse": 59,
-      "Impotence": 58,
-      "Premature Ejaculation": 62,
-      "Depression": 75,
-      "Fatigue": 60,
-      "Loss Of Sex Drive": 60
+      "Involuntary Urination": 140,
+      "Pain During Intercourse": 83,
+      "Impotence": 82,
+      "Premature Ejaculation": 87,
+      "Depression": 105,
+      "Fatigue": 85,
+      "Loss Of Sex Drive": 84
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -11554,7 +11864,7 @@
   "Acne": {
     "symptoms": [
       "Abnormal Appearing Skin",
-      "Acne",
+      "Acne Or Pimples",
       "Irregular Appearing Scalp",
       "Long Menstrual Periods",
       "Skin Dryness, Peeling, Scaliness, Or Roughness",
@@ -11566,7 +11876,7 @@
     "symptom_frequency": {
       "Skin Swelling": 51,
       "Abnormal Appearing Skin": 54,
-      "Acne": 50,
+      "Acne Or Pimples": 50,
       "Skin Growth": 53,
       "Irregular Appearing Scalp": 70,
       "Long Menstrual Periods": 68,
@@ -11829,12 +12139,12 @@
       "Pelvic Pain"
     ],
     "symptom_frequency": {
-      "Sharp Abdominal Pain": 84,
-      "Lower Abdominal Pain": 69,
-      "Pelvic Pain": 100,
-      "Vaginal Pain": 65,
-      "Vaginal Discharge": 80,
-      "Vaginal Itching": 96
+      "Sharp Abdominal Pain": 113,
+      "Lower Abdominal Pain": 92,
+      "Pelvic Pain": 133,
+      "Vaginal Pain": 87,
+      "Vaginal Discharge": 107,
+      "Vaginal Itching": 129
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -11999,13 +12309,13 @@
       "Bleeding Gums"
     ],
     "symptom_frequency": {
-      "Lip Swelling": 100,
-      "Dry Lips": 91,
-      "Bleeding Gums": 62,
-      "Facial Pain": 62,
-      "Toothache": 73,
-      "Difficulty Eating": 61,
-      "Gum Pain": 61
+      "Lip Swelling": 135,
+      "Dry Lips": 123,
+      "Bleeding Gums": 85,
+      "Facial Pain": 85,
+      "Toothache": 99,
+      "Difficulty Eating": 83,
+      "Gum Pain": 83
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -12112,7 +12422,7 @@
   },
   "Rheumatoid Arthritis": {
     "symptoms": [
-      "Muscle Pain",
+      "Ache All Over",
       "Elbow Swelling",
       "Hand Or Finger Pain",
       "Hand Or Finger Swelling",
@@ -12126,7 +12436,7 @@
     "symptom_frequency": {
       "Hand Or Finger Pain": 46,
       "Wrist Pain": 52,
-      "Muscle Pain": 58,
+      "Ache All Over": 58,
       "Elbow Swelling": 70,
       "Wrist Swelling": 63,
       "Joint Pain": 54,
@@ -12357,12 +12667,12 @@
       "Skin Swelling"
     ],
     "symptom_frequency": {
-      "Skin Swelling": 90,
-      "Groin Mass": 100,
-      "Arm Pain": 88,
-      "Skin Lesion": 90,
-      "Skin Growth": 64,
-      "Skin Rash": 57
+      "Skin Swelling": 107,
+      "Groin Mass": 118,
+      "Arm Pain": 105,
+      "Skin Lesion": 107,
+      "Skin Growth": 76,
+      "Skin Rash": 68
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -12395,12 +12705,12 @@
       "Abnormal Appearing Skin"
     ],
     "symptom_frequency": {
-      "Sore Throat": 91,
-      "Nasal Congestion": 95,
-      "Abnormal Appearing Skin": 100,
-      "Cough": 92,
-      "Eye Redness": 69,
-      "Fever": 65
+      "Sore Throat": 113,
+      "Nasal Congestion": 118,
+      "Abnormal Appearing Skin": 123,
+      "Cough": 114,
+      "Eye Redness": 85,
+      "Fever": 80
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -12456,14 +12766,14 @@
       "Headache"
     ],
     "symptom_frequency": {
-      "Fainting": 78,
-      "Lip Swelling": 99,
-      "Facial Pain": 85,
-      "Double Vision": 100,
-      "Back Pain": 84,
-      "Neck Pain": 80,
-      "Headache": 78,
-      "Dizziness": 77
+      "Fainting": 82,
+      "Lip Swelling": 104,
+      "Facial Pain": 90,
+      "Double Vision": 105,
+      "Back Pain": 89,
+      "Neck Pain": 85,
+      "Headache": 82,
+      "Dizziness": 81
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -12616,14 +12926,14 @@
       "Anxiety And Nervousness",
       "Dizziness",
       "Depression",
-      "Muscle Pain",
+      "Ache All Over",
       "Fainting"
     ],
     "symptom_frequency": {
       "Anxiety And Nervousness": 45,
       "Dizziness": 64,
       "Fainting": 70,
-      "Muscle Pain": 41,
+      "Ache All Over": 41,
       "Depression": 48
     },
     "sources": [
@@ -12772,8 +13082,8 @@
       "Dizziness"
     ],
     "symptom_frequency": {
-      "Dizziness": 100,
-      "Feeling Hot": 100
+      "Dizziness": 1,
+      "Feeling Hot": 1
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -12895,7 +13205,7 @@
   },
   "Meningitis": {
     "symptoms": [
-      "Muscle Pain",
+      "Ache All Over",
       "Cough",
       "Fever",
       "Headache",
@@ -12909,7 +13219,7 @@
       "Neck Pain": 53,
       "Neck Stiffness Or Tightness": 48,
       "Fever": 52,
-      "Muscle Pain": 52,
+      "Ache All Over": 52,
       "Cough": 78,
       "Headache": 55,
       "Nausea": 68
@@ -12937,7 +13247,7 @@
   "Hormone Disorder": {
     "symptoms": [
       "Hot Flashes",
-      "Acne",
+      "Acne Or Pimples",
       "Headache",
       "Excessive Growth",
       "Lack Of Growth"
@@ -12946,7 +13256,7 @@
       "Lack Of Growth": 39,
       "Headache": 47,
       "Hot Flashes": 49,
-      "Acne": 52,
+      "Acne Or Pimples": 52,
       "Excessive Growth": 36
     },
     "sources": [
@@ -12992,13 +13302,13 @@
       "Skin Swelling"
     ],
     "symptom_frequency": {
-      "Abnormal Appearing Skin": 58,
-      "Foot Or Toe Swelling": 87,
-      "Problems During Pregnancy": 62,
-      "Itching Of Skin": 61,
-      "Unpredictable Menstruation": 100,
-      "Skin Rash": 57,
-      "Skin Swelling": 63
+      "Abnormal Appearing Skin": 91,
+      "Foot Or Toe Swelling": 137,
+      "Problems During Pregnancy": 97,
+      "Itching Of Skin": 96,
+      "Unpredictable Menstruation": 156,
+      "Skin Rash": 89,
+      "Skin Swelling": 99
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -13065,12 +13375,12 @@
       "Abnormal Appearing Skin"
     ],
     "symptom_frequency": {
-      "Leg Pain": 71,
-      "Abnormal Appearing Skin": 84,
-      "Knee Swelling": 88,
-      "Loss Of Sensation": 71,
-      "Paresthesia": 100,
-      "Leg Swelling": 67
+      "Leg Pain": 79,
+      "Abnormal Appearing Skin": 94,
+      "Knee Swelling": 98,
+      "Loss Of Sensation": 79,
+      "Paresthesia": 111,
+      "Leg Swelling": 75
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -13079,7 +13389,7 @@
   "Rosacea": {
     "symptoms": [
       "Abnormal Appearing Skin",
-      "Acne",
+      "Acne Or Pimples",
       "Itching Of Skin",
       "Lymphedema",
       "Skin Dryness, Peeling, Scaliness, Or Roughness",
@@ -13096,7 +13406,7 @@
       "Symptoms Of Eye": 54,
       "Lymphedema": 44,
       "Skin Dryness, Peeling, Scaliness, Or Roughness": 50,
-      "Acne": 46,
+      "Acne Or Pimples": 46,
       "Skin Growth": 50,
       "Itching Of Skin": 54,
       "Skin Moles": 48
@@ -13179,13 +13489,13 @@
       "Nasal Congestion"
     ],
     "symptom_frequency": {
-      "Shortness Of Breath": 79,
-      "Hoarse Voice": 81,
-      "Cough": 65,
-      "Nasal Congestion": 100,
-      "Fever": 61,
-      "Sneezing": 60,
-      "Sore Throat": 61
+      "Shortness Of Breath": 131,
+      "Hoarse Voice": 135,
+      "Cough": 108,
+      "Nasal Congestion": 165,
+      "Fever": 101,
+      "Sneezing": 100,
+      "Sore Throat": 101
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -13227,12 +13537,12 @@
       "Skin Swelling"
     ],
     "symptom_frequency": {
-      "Skin Swelling": 100,
-      "Swelling Of Scrotum": 67,
-      "Abnormal Appearing Skin": 64,
-      "Skin Lesion": 93,
-      "Pain Of The Anus": 74,
-      "Pain In Testicles": 87
+      "Skin Swelling": 114,
+      "Swelling Of Scrotum": 77,
+      "Abnormal Appearing Skin": 73,
+      "Skin Lesion": 107,
+      "Pain Of The Anus": 85,
+      "Pain In Testicles": 100
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -13250,6 +13560,35 @@
       "Pain Or Soreness Of Breast": 12,
       "Skin Growth": 14,
       "Lump Or Mass Of Breast": 11
+    },
+    "sources": [
+      "kaggle_dhivyeshrk"
+    ]
+  },
+  "Post-Traumatic Stress Disorder (Ptsd)": {
+    "symptoms": [
+      "Temper Problems",
+      "Anxiety And Nervousness",
+      "Insomnia",
+      "Depression",
+      "Delusions Or Hallucinations",
+      "Abusing Alcohol",
+      "Depressive Or Psychotic Symptoms",
+      "Drug Abuse",
+      "Excessive Anger",
+      "Hostile Behavior"
+    ],
+    "symptom_frequency": {
+      "Anxiety And Nervousness": 278,
+      "Depression": 297,
+      "Depressive Or Psychotic Symptoms": 291,
+      "Insomnia": 314,
+      "Hostile Behavior": 461,
+      "Drug Abuse": 305,
+      "Abusing Alcohol": 305,
+      "Temper Problems": 321,
+      "Excessive Anger": 299,
+      "Delusions Or Hallucinations": 303
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -13340,12 +13679,12 @@
       "Regurgitation.1"
     ],
     "symptom_frequency": {
-      "Sharp Abdominal Pain": 88,
-      "Vomiting": 86,
-      "Nausea": 62,
-      "Peripheral Edema": 100,
-      "Sharp Chest Pain": 92,
-      "Regurgitation.1": 63
+      "Sharp Abdominal Pain": 108,
+      "Vomiting": 105,
+      "Nausea": 76,
+      "Peripheral Edema": 122,
+      "Sharp Chest Pain": 113,
+      "Regurgitation.1": 78
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -13387,7 +13726,7 @@
   },
   "Sickle Cell Anemia": {
     "symptoms": [
-      "Muscle Pain",
+      "Ache All Over",
       "Back Pain",
       "Dry Lips",
       "Fever",
@@ -13404,7 +13743,7 @@
       "Pulling At Ears": 52,
       "Leg Pain": 48,
       "Joint Pain": 50,
-      "Muscle Pain": 62
+      "Ache All Over": 62
     },
     "sources": [
       "mendeley_2023",
@@ -13472,7 +13811,7 @@
   "Contact Dermatitis": {
     "symptoms": [
       "Abnormal Appearing Skin",
-      "Acne",
+      "Acne Or Pimples",
       "Allergic Reaction",
       "Itching Of Skin",
       "Skin Dryness, Peeling, Scaliness, Or Roughness",
@@ -13486,7 +13825,7 @@
     "symptom_frequency": {
       "Skin Swelling": 52,
       "Skin Lesion": 51,
-      "Acne": 46,
+      "Acne Or Pimples": 46,
       "Skin Moles": 65,
       "Skin Dryness, Peeling, Scaliness, Or Roughness": 52,
       "Skin Irritation": 45,
@@ -13539,8 +13878,8 @@
       "Headache"
     ],
     "symptom_frequency": {
-      "Sharp Chest Pain": 100,
-      "Headache": 100
+      "Sharp Chest Pain": 1,
+      "Headache": 1
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -13662,6 +14001,36 @@
       "kaggle_uom190346a"
     ]
   },
+  "Flu": {
+    "symptoms": [
+      "Ache All Over",
+      "Chills",
+      "Coryza",
+      "Cough",
+      "Diarrhea",
+      "Fever",
+      "Headache",
+      "Nausea",
+      "Sore Throat",
+      "Vomiting"
+    ],
+    "symptom_frequency": {
+      "Sore Throat": 69,
+      "Cough": 48,
+      "Diarrhea": 48,
+      "Ache All Over": 61,
+      "Chills": 48,
+      "Vomiting": 43,
+      "Headache": 65,
+      "Nausea": 53,
+      "Fever": 53,
+      "Coryza": 51
+    },
+    "sources": [
+      "mendeley_2023",
+      "merged_from_new"
+    ]
+  },
   "Friedrich Ataxia": {
     "symptoms": [
       "Ear Pain",
@@ -13701,7 +14070,7 @@
   "Skin Polyp": {
     "symptoms": [
       "Abnormal Appearing Skin",
-      "Acne",
+      "Acne Or Pimples",
       "Irregular Appearing Scalp",
       "Itching Of Skin",
       "Skin Dryness, Peeling, Scaliness, Or Roughness",
@@ -13719,7 +14088,7 @@
       "Skin Irritation": 49,
       "Abnormal Appearing Skin": 44,
       "Skin Lesion": 47,
-      "Acne": 54,
+      "Acne Or Pimples": 54,
       "Skin Growth": 54,
       "Skin Dryness, Peeling, Scaliness, Or Roughness": 49,
       "Warts": 52,
@@ -13840,8 +14209,8 @@
       "Wrist Pain"
     ],
     "symptom_frequency": {
-      "Sharp Abdominal Pain": 100,
-      "Wrist Pain": 100
+      "Sharp Abdominal Pain": 1,
+      "Wrist Pain": 1
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -13958,13 +14327,13 @@
       "Vomiting"
     ],
     "symptom_frequency": {
-      "Sharp Chest Pain": 57,
-      "Insomnia": 100,
-      "Headache": 67,
-      "Depressive Or Psychotic Symptoms": 93,
-      "Lower Body Pain": 63,
-      "Shortness Of Breath": 61,
-      "Vomiting": 65
+      "Sharp Chest Pain": 85,
+      "Insomnia": 149,
+      "Headache": 100,
+      "Depressive Or Psychotic Symptoms": 140,
+      "Lower Body Pain": 94,
+      "Shortness Of Breath": 91,
+      "Vomiting": 97
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -14224,8 +14593,8 @@
       "Nasal Congestion"
     ],
     "symptom_frequency": {
-      "Nasal Congestion": 100,
-      "Regurgitation.1": 100
+      "Nasal Congestion": 1,
+      "Regurgitation.1": 1
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -14274,13 +14643,13 @@
       "Lack Of Growth"
     ],
     "symptom_frequency": {
-      "Difficulty Speaking": 100,
-      "Nasal Congestion": 78,
-      "Lack Of Growth": 65,
-      "Seizures": 56,
-      "Cough": 56,
-      "Decreased Appetite": 57,
-      "Fatigue": 0
+      "Difficulty Speaking": 116,
+      "Nasal Congestion": 91,
+      "Lack Of Growth": 76,
+      "Seizures": 65,
+      "Cough": 66,
+      "Decreased Appetite": 67,
+      "Fatigue": 1
     },
     "sources": [
       "kaggle_dhivyeshrk",
@@ -14424,12 +14793,12 @@
       "Vomiting"
     ],
     "symptom_frequency": {
-      "Dizziness": 73,
-      "Fainting": 80,
-      "Vomiting": 86,
-      "Headache": 68,
-      "Symptoms Of Eye": 100,
-      "Loss Of Sensation": 76
+      "Dizziness": 86,
+      "Fainting": 94,
+      "Vomiting": 101,
+      "Headache": 80,
+      "Symptoms Of Eye": 117,
+      "Loss Of Sensation": 90
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -14501,12 +14870,12 @@
       "Impotence"
     ],
     "symptom_frequency": {
-      "Shortness Of Breath": 64,
-      "Nasal Congestion": 100,
-      "Flatulence": 87,
-      "Diarrhea": 59,
-      "Impotence": 86,
-      "Burning Abdominal Pain": 66
+      "Shortness Of Breath": 76,
+      "Nasal Congestion": 117,
+      "Flatulence": 102,
+      "Diarrhea": 70,
+      "Impotence": 101,
+      "Burning Abdominal Pain": 78
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -14731,8 +15100,8 @@
       "Insomnia"
     ],
     "symptom_frequency": {
-      "Insomnia": 100,
-      "Elbow Weakness": 100
+      "Insomnia": 1,
+      "Elbow Weakness": 1
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -14872,12 +15241,12 @@
       "Skin Dryness, Peeling, Scaliness, Or Roughness"
     ],
     "symptom_frequency": {
-      "Vaginal Itching": 99,
-      "Pain During Intercourse": 100,
-      "Vaginal Pain": 88,
-      "Skin Dryness, Peeling, Scaliness, Or Roughness": 65,
-      "Vaginal Discharge": 87,
-      "Vulvar Irritation": 64
+      "Vaginal Itching": 123,
+      "Pain During Intercourse": 124,
+      "Vaginal Pain": 110,
+      "Skin Dryness, Peeling, Scaliness, Or Roughness": 81,
+      "Vaginal Discharge": 109,
+      "Vulvar Irritation": 80
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -15011,13 +15380,13 @@
       "Knee Swelling"
     ],
     "symptom_frequency": {
-      "Back Pain": 57,
-      "Leg Pain": 57,
-      "Knee Swelling": 80,
-      "Knee Stiffness Or Tightness": 100,
-      "Low Back Pain": 61,
-      "Problems With Movement": 60,
-      "Lower Body Pain": 59
+      "Back Pain": 81,
+      "Leg Pain": 82,
+      "Knee Swelling": 115,
+      "Knee Stiffness Or Tightness": 142,
+      "Low Back Pain": 88,
+      "Problems With Movement": 86,
+      "Lower Body Pain": 85
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -15094,7 +15463,7 @@
   },
   "Ankylosing Spondylitis": {
     "symptoms": [
-      "Muscle Pain",
+      "Ache All Over",
       "Back Pain",
       "Elbow Pain",
       "Hip Pain",
@@ -15114,7 +15483,7 @@
       "Paresthesia": 75,
       "Stiffness All Over": 50,
       "Knee Pain": 56,
-      "Muscle Pain": 46,
+      "Ache All Over": 46,
       "Lower Body Pain": 47
     },
     "sources": [
@@ -15159,7 +15528,7 @@
   "Sebaceous Cyst": {
     "symptoms": [
       "Abnormal Appearing Skin",
-      "Acne",
+      "Acne Or Pimples",
       "Arm Lump Or Mass",
       "Back Mass Or Lump",
       "Hand Or Finger Lump Or Mass",
@@ -15174,7 +15543,7 @@
       "Skin Swelling": 52,
       "Abnormal Appearing Skin": 47,
       "Skin Lesion": 53,
-      "Acne": 53,
+      "Acne Or Pimples": 53,
       "Skin Growth": 54,
       "Back Mass Or Lump": 38,
       "Arm Lump Or Mass": 58,
@@ -15323,7 +15692,7 @@
   "Chronic Pancreatitis": {
     "symptoms": [
       "Abusing Alcohol",
-      "Muscle Pain",
+      "Ache All Over",
       "Back Pain",
       "Diarrhea",
       "Nausea",
@@ -15335,7 +15704,7 @@
       "Vomiting": 55,
       "Nausea": 53,
       "Skin Growth": 70,
-      "Muscle Pain": 52,
+      "Ache All Over": 52,
       "Abusing Alcohol": 56,
       "Sharp Abdominal Pain": 53,
       "Diarrhea": 76,
@@ -15350,7 +15719,7 @@
     "symptoms": [
       "Sharp Abdominal Pain",
       "Arm Swelling",
-      "Muscle Pain",
+      "Ache All Over",
       "Swelling Of Scrotum",
       "Skin Swelling"
     ],
@@ -15359,7 +15728,7 @@
       "Arm Swelling": 58,
       "Skin Swelling": 44,
       "Sharp Abdominal Pain": 41,
-      "Muscle Pain": 47
+      "Ache All Over": 47
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -15384,8 +15753,8 @@
       "Headache"
     ],
     "symptom_frequency": {
-      "Abusing Alcohol": 100,
-      "Headache": 100
+      "Abusing Alcohol": 1,
+      "Headache": 1
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -15394,7 +15763,7 @@
   "Seborrheic Keratosis": {
     "symptoms": [
       "Abnormal Appearing Skin",
-      "Acne",
+      "Acne Or Pimples",
       "Irregular Appearing Scalp",
       "Itching Of Skin",
       "Skin Growth",
@@ -15411,7 +15780,7 @@
       "Skin Moles": 61,
       "Skin Swelling": 48,
       "Skin Lesion": 46,
-      "Acne": 56,
+      "Acne Or Pimples": 56,
       "Itching Of Skin": 72,
       "Skin Irritation": 57,
       "Warts": 54,
@@ -15614,19 +15983,19 @@
       "Leg Pain",
       "Difficulty Speaking",
       "Knee Pain",
-      "Muscle Pain",
+      "Ache All Over",
       "Hip Pain",
       "Back Pain",
       "Groin Pain"
     ],
     "symptom_frequency": {
-      "Difficulty Speaking": 100,
-      "Hip Pain": 59,
-      "Back Pain": 64,
-      "Knee Pain": 91,
-      "Leg Pain": 58,
-      "Muscle Pain": 65,
-      "Groin Pain": 56
+      "Difficulty Speaking": 151,
+      "Hip Pain": 90,
+      "Back Pain": 98,
+      "Knee Pain": 138,
+      "Leg Pain": 88,
+      "Ache All Over": 99,
+      "Groin Pain": 86
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -15702,12 +16071,12 @@
       "Bumps On Penis"
     ],
     "symptom_frequency": {
-      "Swelling Of Scrotum": 93,
-      "Pain In Testicles": 74,
-      "Irritable Infant": 100,
-      "Abnormal Appearing Skin": 82,
-      "Mass In Scrotum": 69,
-      "Bumps On Penis": 79
+      "Swelling Of Scrotum": 107,
+      "Pain In Testicles": 85,
+      "Irritable Infant": 114,
+      "Abnormal Appearing Skin": 94,
+      "Mass In Scrotum": 79,
+      "Bumps On Penis": 91
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -15885,7 +16254,7 @@
   "Skin Pigmentation Disorder": {
     "symptoms": [
       "Abnormal Appearing Skin",
-      "Acne",
+      "Acne Or Pimples",
       "Irregular Appearing Scalp",
       "Itching Of Skin",
       "Skin Dryness, Peeling, Scaliness, Or Roughness",
@@ -15899,7 +16268,7 @@
     "symptom_frequency": {
       "Skin Swelling": 52,
       "Skin Lesion": 55,
-      "Acne": 47,
+      "Acne Or Pimples": 47,
       "Irregular Appearing Scalp": 73,
       "Skin Moles": 51,
       "Skin Dryness, Peeling, Scaliness, Or Roughness": 43,
@@ -16124,6 +16493,33 @@
       "kaggle_dhivyeshrk"
     ]
   },
+  "Obsessive Compulsive Disorder (Ocd)": {
+    "symptoms": [
+      "Temper Problems",
+      "Anxiety And Nervousness",
+      "Obsessions And Compulsions",
+      "Depression",
+      "Feeling Ill",
+      "Depressive Or Psychotic Symptoms",
+      "Low Self-Esteem",
+      "Hostile Behavior",
+      "Lack Of Growth"
+    ],
+    "symptom_frequency": {
+      "Depression": 228,
+      "Depressive Or Psychotic Symptoms": 228,
+      "Hostile Behavior": 225,
+      "Temper Problems": 224,
+      "Lack Of Growth": 299,
+      "Feeling Ill": 360,
+      "Low Self-Esteem": 233,
+      "Obsessions And Compulsions": 219,
+      "Anxiety And Nervousness": 230
+    },
+    "sources": [
+      "kaggle_dhivyeshrk"
+    ]
+  },
   "Injury Of The Ankle": {
     "symptoms": [
       "Foot Or Toe Weakness",
@@ -16136,14 +16532,14 @@
       "Joint Pain"
     ],
     "symptom_frequency": {
-      "Wrist Swelling": 100,
-      "Foot Or Toe Pain": 57,
-      "Ankle Pain": 69,
-      "Foot Or Toe Swelling": 67,
-      "Joint Pain": 68,
-      "Foot Or Toe Weakness": 68,
-      "Ankle Swelling": 65,
-      "Leg Pain": 63
+      "Wrist Swelling": 145,
+      "Foot Or Toe Pain": 84,
+      "Ankle Pain": 101,
+      "Foot Or Toe Swelling": 98,
+      "Joint Pain": 99,
+      "Foot Or Toe Weakness": 99,
+      "Ankle Swelling": 95,
+      "Leg Pain": 92
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -16232,13 +16628,13 @@
       "Skin Dryness, Peeling, Scaliness, Or Roughness"
     ],
     "symptom_frequency": {
-      "Groin Mass": 100,
-      "Skin Lesion": 61,
-      "Skin Growth": 59,
-      "Skin Dryness, Peeling, Scaliness, Or Roughness": 81,
-      "Skin Moles": 65,
-      "Abnormal Appearing Skin": 60,
-      "Itching Of Skin": 64
+      "Groin Mass": 139,
+      "Skin Lesion": 86,
+      "Skin Growth": 83,
+      "Skin Dryness, Peeling, Scaliness, Or Roughness": 113,
+      "Skin Moles": 91,
+      "Abnormal Appearing Skin": 84,
+      "Itching Of Skin": 90
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -16395,7 +16791,7 @@
   },
   "Strep Throat": {
     "symptoms": [
-      "Muscle Pain",
+      "Ache All Over",
       "Chills",
       "Cough",
       "Decreased Appetite",
@@ -16414,7 +16810,7 @@
       "Vomiting": 59,
       "Headache": 51,
       "Decreased Appetite": 51,
-      "Muscle Pain": 54,
+      "Ache All Over": 54,
       "Chills": 52,
       "Sore Throat": 45,
       "Cough": 51,
@@ -16472,7 +16868,7 @@
     "symptoms": [
       "Pain In Eye",
       "Symptoms Of Eye",
-      "Muscle Pain",
+      "Ache All Over",
       "Difficulty In Swallowing",
       "Joint Pain",
       "Diminished Vision"
@@ -16482,7 +16878,7 @@
       "Symptoms Of Eye": 47,
       "Pain In Eye": 86,
       "Diminished Vision": 53,
-      "Muscle Pain": 46,
+      "Ache All Over": 46,
       "Joint Pain": 41
     },
     "sources": [
@@ -16494,6 +16890,7 @@
       "Neck Pain",
       "Shoulder Pain",
       "Shoulder Stiffness Or Tightness",
+      "Ache All Over",
       "Muscle Pain",
       "Arm Pain"
     ],
@@ -16501,6 +16898,7 @@
       "Arm Pain": 55,
       "Neck Pain": 39,
       "Shoulder Stiffness Or Tightness": 43,
+      "Ache All Over": 38,
       "Muscle Pain": 65,
       "Shoulder Pain": 37
     },
@@ -16705,8 +17103,8 @@
       "Headache"
     ],
     "symptom_frequency": {
-      "Headache": 100,
-      "Wrist Pain": 100
+      "Headache": 1,
+      "Wrist Pain": 1
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -16723,13 +17121,13 @@
       "Vomiting"
     ],
     "symptom_frequency": {
-      "Difficulty In Swallowing": 100,
-      "Sharp Abdominal Pain": 74,
-      "Diarrhea": 100,
-      "Vomiting": 59,
-      "Nausea": 65,
-      "Heartburn": 59,
-      "Burning Abdominal Pain": 65
+      "Difficulty In Swallowing": 132,
+      "Sharp Abdominal Pain": 98,
+      "Diarrhea": 132,
+      "Vomiting": 79,
+      "Nausea": 87,
+      "Heartburn": 79,
+      "Burning Abdominal Pain": 87
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -16832,7 +17230,7 @@
   "Callus": {
     "symptoms": [
       "Abnormal Appearing Skin",
-      "Acne",
+      "Acne Or Pimples",
       "Foot Or Toe Pain",
       "Foot Or Toe Swelling",
       "Irregular Appearing Nails",
@@ -16848,7 +17246,7 @@
       "Irregular Appearing Nails": 56,
       "Skin Rash": 45,
       "Skin Swelling": 70,
-      "Acne": 70,
+      "Acne Or Pimples": 70,
       "Foot Or Toe Swelling": 60,
       "Skin Lesion": 49
     },
@@ -16887,13 +17285,13 @@
       "Side Pain"
     ],
     "symptom_frequency": {
-      "Hip Pain": 100,
-      "Low Back Pain": 78,
-      "Side Pain": 97,
-      "Low Back Cramps Or Spasms": 86,
-      "Leg Pain": 73,
-      "Back Pain": 78,
-      "Muscle Pain": 89
+      "Hip Pain": 119,
+      "Low Back Pain": 94,
+      "Side Pain": 116,
+      "Low Back Cramps Or Spasms": 103,
+      "Leg Pain": 87,
+      "Back Pain": 93,
+      "Muscle Pain": 106
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -17169,12 +17567,12 @@
       "Palpitations"
     ],
     "symptom_frequency": {
-      "Shortness Of Breath": 95,
-      "Palpitations": 100,
-      "Back Pain": 59,
-      "Sharp Abdominal Pain": 70,
-      "Arm Swelling": 95,
-      "Burning Abdominal Pain": 99
+      "Shortness Of Breath": 105,
+      "Palpitations": 110,
+      "Back Pain": 65,
+      "Sharp Abdominal Pain": 78,
+      "Arm Swelling": 105,
+      "Burning Abdominal Pain": 109
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -17303,7 +17701,7 @@
   "Molluscum Contagiosum": {
     "symptoms": [
       "Abnormal Appearing Skin",
-      "Acne",
+      "Acne Or Pimples",
       "Itching Of Skin",
       "Knee Lump Or Mass",
       "Skin Dryness, Peeling, Scaliness, Or Roughness",
@@ -17320,7 +17718,7 @@
       "Skin Dryness, Peeling, Scaliness, Or Roughness": 51,
       "Itching Of Skin": 43,
       "Skin Lesion": 47,
-      "Acne": 67,
+      "Acne Or Pimples": 67,
       "Skin Rash": 50
     },
     "sources": [
@@ -17476,7 +17874,7 @@
     "symptoms": [
       "Frequent Urination",
       "Skin Rash",
-      "Acne",
+      "Acne Or Pimples",
       "Skin Lesion",
       "Abnormal Appearing Skin"
     ],
@@ -17485,7 +17883,7 @@
       "Skin Lesion": 46,
       "Skin Rash": 49,
       "Abnormal Appearing Skin": 58,
-      "Acne": 53
+      "Acne Or Pimples": 53
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -17587,7 +17985,7 @@
   },
   "Inguinal Hernia": {
     "symptoms": [
-      "Muscle Pain",
+      "Ache All Over",
       "Groin Mass",
       "Groin Pain",
       "Lower Abdominal Pain",
@@ -17603,7 +18001,7 @@
       "Swelling Of Scrotum": 56,
       "Mass In Scrotum": 52,
       "Lower Abdominal Pain": 53,
-      "Muscle Pain": 66,
+      "Ache All Over": 66,
       "Swollen Abdomen": 53,
       "Groin Pain": 44,
       "Sharp Abdominal Pain": 59,
@@ -17618,7 +18016,7 @@
   "Eczema": {
     "symptoms": [
       "Abnormal Appearing Skin",
-      "Acne",
+      "Acne Or Pimples",
       "Allergic Reaction",
       "Cough",
       "Irregular Appearing Scalp",
@@ -17640,7 +18038,7 @@
       "Abnormal Appearing Skin": 45,
       "Itching Of Skin": 49,
       "Skin Dryness, Peeling, Scaliness, Or Roughness": 48,
-      "Acne": 49,
+      "Acne Or Pimples": 49,
       "Allergic Reaction": 45,
       "Warts": 52
     },
@@ -17776,8 +18174,8 @@
       "Elbow Weakness"
     ],
     "symptom_frequency": {
-      "Depression": 100,
-      "Elbow Weakness": 100
+      "Depression": 1,
+      "Elbow Weakness": 1
     },
     "sources": [
       "kaggle_dhivyeshrk"
@@ -17897,6 +18295,28 @@
       "merged_from_new"
     ]
   },
+  "Gerd": {
+    "symptoms": [
+      "Acidity",
+      "Cough",
+      "Stomach_Pain",
+      "Chest_Pain",
+      "Vomiting",
+      "Ulcers_On_Tongue"
+    ],
+    "symptom_frequency": {
+      "Stomach_Pain": 228,
+      "Acidity": 216,
+      "Ulcers_On_Tongue": 216,
+      "Vomiting": 216,
+      "Cough": 228,
+      "Chest_Pain": 228
+    },
+    "sources": [
+      "kaggle_itachi9604",
+      "kaggle_choongqianzheng"
+    ]
+  },
   "Chronic Cholestasis": {
     "symptoms": [
       "Abdominal Pain",
@@ -17923,7 +18343,7 @@
   },
   "Peptic Ulcer Diseae": {
     "symptoms": [
-      "Abdominal Pain",
+      "Abdominal_Pain",
       "Indigestion",
       "Internal_Itching",
       "Passage_Of_Gases",
@@ -17931,12 +18351,30 @@
       "Loss_Of_Appetite"
     ],
     "symptom_frequency": {
-      "Vomiting": 100,
-      "Loss_Of_Appetite": 94,
-      "Abdominal Pain": 100,
-      "Passage_Of_Gases": 100,
-      "Internal_Itching": 100,
-      "Indigestion": 94
+      "Vomiting": 228,
+      "Loss_Of_Appetite": 216,
+      "Abdominal_Pain": 228,
+      "Passage_Of_Gases": 228,
+      "Internal_Itching": 228,
+      "Indigestion": 216
+    },
+    "sources": [
+      "kaggle_itachi9604",
+      "kaggle_choongqianzheng"
+    ]
+  },
+  "Aids": {
+    "symptoms": [
+      "High_Fever",
+      "Extra_Marital_Contacts",
+      "Muscle_Wasting",
+      "Patches_In_Throat"
+    ],
+    "symptom_frequency": {
+      "Muscle_Wasting": 216,
+      "Patches_In_Throat": 216,
+      "High_Fever": 228,
+      "Extra_Marital_Contacts": 216
     },
     "sources": [
       "kaggle_itachi9604",
@@ -18088,23 +18526,23 @@
       "Red_Spots_Over_Body"
     ],
     "symptom_frequency": {
-      "Itching": 100,
-      "Skin_Rash": 94,
-      "Fatigue": 96,
-      "Lethargy": 94,
-      "High_Fever": 94,
-      "Headache": 100,
-      "Loss_Of_Appetite": 94,
-      "Mild_Fever": 94,
-      "Swelled_Lymph_Nodes": 94,
-      "Malaise": 99,
-      "Red_Spots_Over_Body": 99,
-      "Rash": 6,
-      "Skin": 5,
-      "Fever": 9,
-      "Patches": 0,
-      "Pain": 1,
-      "Vomiting": 1
+      "Itching": 242,
+      "Skin_Rash": 228,
+      "Fatigue": 233,
+      "Lethargy": 228,
+      "High_Fever": 228,
+      "Headache": 242,
+      "Loss_Of_Appetite": 228,
+      "Mild_Fever": 228,
+      "Swelled_Lymph_Nodes": 228,
+      "Malaise": 240,
+      "Red_Spots_Over_Body": 240,
+      "Rash": 16,
+      "Skin": 13,
+      "Fever": 22,
+      "Patches": 1,
+      "Pain": 4,
+      "Vomiting": 3
     },
     "sources": [
       "kaggle_itachi9604",
@@ -18367,11 +18805,11 @@
       "Irritation_In_Anus"
     ],
     "symptom_frequency": {
-      "Constipation": 100,
-      "Pain_During_Bowel_Movements": 100,
-      "Pain_In_Anal_Region": 100,
-      "Bloody_Stool": 100,
-      "Irritation_In_Anus": 100
+      "Constipation": 228,
+      "Pain_During_Bowel_Movements": 228,
+      "Pain_In_Anal_Region": 228,
+      "Bloody_Stool": 228,
+      "Irritation_In_Anus": 228
     },
     "sources": [
       "kaggle_itachi9604",
@@ -18420,12 +18858,12 @@
       "Swelling_Joints"
     ],
     "symptom_frequency": {
-      "Joint_Pain": 100,
-      "Neck_Pain": 100,
-      "Knee_Pain": 100,
-      "Hip_Joint_Pain": 100,
-      "Swelling_Joints": 100,
-      "Painful_Walking": 100
+      "Joint_Pain": 228,
+      "Neck_Pain": 228,
+      "Knee_Pain": 228,
+      "Hip_Joint_Pain": 228,
+      "Swelling_Joints": 228,
+      "Painful_Walking": 228
     },
     "sources": [
       "kaggle_itachi9604",
@@ -18462,12 +18900,12 @@
       "Loss_Of_Balance"
     ],
     "symptom_frequency": {
-      "Vomiting": 100,
-      "Headache": 100,
-      "Nausea": 100,
-      "Spinning_Movements": 94,
-      "Loss_Of_Balance": 100,
-      "Unsteadiness": 100
+      "Vomiting": 228,
+      "Headache": 228,
+      "Nausea": 228,
+      "Spinning_Movements": 216,
+      "Loss_Of_Balance": 228,
+      "Unsteadiness": 228
     },
     "sources": [
       "kaggle_itachi9604",
@@ -18476,37 +18914,19 @@
   },
   "Influenza": {
     "symptoms": [
-      "Chills",
-      "Vomiting",
-      "Headache",
-      "Coryza",
-      "Difficulty Breathing",
-      "Muscle Pain",
-      "Diarrhea",
-      "Nausea",
+      "Fever",
       "Cough",
-      "Sore Throat",
       "Fatigue",
-      "Fever"
+      "Difficulty Breathing"
     ],
     "symptom_frequency": {
-      "Fever": 53,
+      "Fever": 6,
       "Fatigue": 6,
       "Difficulty Breathing": 5,
-      "Cough": 48,
-      "Sore Throat": 69,
-      "Diarrhea": 48,
-      "Muscle Pain": 61,
-      "Chills": 48,
-      "Vomiting": 43,
-      "Headache": 65,
-      "Nausea": 53,
-      "Coryza": 51
+      "Cough": 6
     },
     "sources": [
-      "kaggle_uom190346a",
-      "merged_from_new",
-      "mendeley_2023"
+      "kaggle_uom190346a"
     ]
   },
   "Allergic Rhinitis": {
@@ -18581,8 +19001,8 @@
       "Cough"
     ],
     "symptom_frequency": {
-      "Cough": 100,
-      "Fatigue": 100
+      "Cough": 1,
+      "Fatigue": 1
     },
     "sources": [
       "kaggle_uom190346a"
@@ -18613,10 +19033,10 @@
       "Difficulty Breathing"
     ],
     "symptom_frequency": {
-      "Fever": 100,
-      "Cough": 100,
-      "Fatigue": 100,
-      "Difficulty Breathing": 100
+      "Fever": 1,
+      "Cough": 1,
+      "Fatigue": 1,
+      "Difficulty Breathing": 1
     },
     "sources": [
       "kaggle_uom190346a"
@@ -18642,7 +19062,7 @@
       "Fatigue"
     ],
     "symptom_frequency": {
-      "Fatigue": 100
+      "Fatigue": 1
     },
     "sources": [
       "kaggle_uom190346a"
@@ -18656,10 +19076,10 @@
       "Difficulty Breathing"
     ],
     "symptom_frequency": {
-      "Fever": 100,
-      "Cough": 100,
-      "Fatigue": 100,
-      "Difficulty Breathing": 100
+      "Fever": 1,
+      "Cough": 1,
+      "Fatigue": 1,
+      "Difficulty Breathing": 1
     },
     "sources": [
       "kaggle_uom190346a"
@@ -18670,7 +19090,7 @@
       "Fatigue"
     ],
     "symptom_frequency": {
-      "Fatigue": 100
+      "Fatigue": 1
     },
     "sources": [
       "kaggle_uom190346a"
@@ -18694,7 +19114,7 @@
       "Cough"
     ],
     "symptom_frequency": {
-      "Cough": 100
+      "Cough": 1
     },
     "sources": [
       "kaggle_uom190346a"
@@ -18733,7 +19153,7 @@
       "Fatigue"
     ],
     "symptom_frequency": {
-      "Fatigue": 100
+      "Fatigue": 1
     },
     "sources": [
       "kaggle_uom190346a"
@@ -18785,7 +19205,7 @@
       "Fatigue"
     ],
     "symptom_frequency": {
-      "Fatigue": 100
+      "Fatigue": 1
     },
     "sources": [
       "kaggle_uom190346a"
@@ -18796,7 +19216,7 @@
       "Fatigue"
     ],
     "symptom_frequency": {
-      "Fatigue": 100
+      "Fatigue": 1
     },
     "sources": [
       "kaggle_uom190346a"
@@ -18822,7 +19242,7 @@
       "Fatigue"
     ],
     "symptom_frequency": {
-      "Fatigue": 100
+      "Fatigue": 1
     },
     "sources": [
       "kaggle_uom190346a"
@@ -18846,7 +19266,7 @@
       "Fatigue"
     ],
     "symptom_frequency": {
-      "Fatigue": 100
+      "Fatigue": 1
     },
     "sources": [
       "kaggle_uom190346a"
@@ -18859,9 +19279,9 @@
       "Cough"
     ],
     "symptom_frequency": {
-      "Fever": 100,
-      "Cough": 100,
-      "Fatigue": 100
+      "Fever": 1,
+      "Cough": 1,
+      "Fatigue": 1
     },
     "sources": [
       "kaggle_uom190346a"
@@ -18900,9 +19320,9 @@
       "Difficulty Breathing"
     ],
     "symptom_frequency": {
-      "Fever": 100,
-      "Fatigue": 100,
-      "Difficulty Breathing": 100
+      "Fever": 1,
+      "Fatigue": 1,
+      "Difficulty Breathing": 1
     },
     "sources": [
       "kaggle_uom190346a"
@@ -18941,7 +19361,7 @@
       "Fatigue"
     ],
     "symptom_frequency": {
-      "Fatigue": 100
+      "Fatigue": 1
     },
     "sources": [
       "kaggle_uom190346a"
@@ -18962,14 +19382,27 @@
       "kaggle_uom190346a"
     ]
   },
+  "Polycystic Ovary Syndrome (Pcos)": {
+    "symptoms": [
+      "Fever",
+      "Cough"
+    ],
+    "symptom_frequency": {
+      "Fever": 1,
+      "Cough": 1
+    },
+    "sources": [
+      "kaggle_uom190346a"
+    ]
+  },
   "Systemic Lupus Erythematosus...": {
     "symptoms": [
       "Fatigue",
       "Cough"
     ],
     "symptom_frequency": {
-      "Cough": 100,
-      "Fatigue": 100
+      "Cough": 1,
+      "Fatigue": 1
     },
     "sources": [
       "kaggle_uom190346a"
@@ -18995,9 +19428,9 @@
       "Cough"
     ],
     "symptom_frequency": {
-      "Fever": 100,
-      "Cough": 100,
-      "Fatigue": 100
+      "Fever": 1,
+      "Cough": 1,
+      "Fatigue": 1
     },
     "sources": [
       "kaggle_uom190346a"
@@ -19008,7 +19441,7 @@
       "Fatigue"
     ],
     "symptom_frequency": {
-      "Fatigue": 100
+      "Fatigue": 1
     },
     "sources": [
       "kaggle_uom190346a"
@@ -19021,9 +19454,9 @@
       "Cough"
     ],
     "symptom_frequency": {
-      "Fever": 100,
-      "Cough": 100,
-      "Fatigue": 100
+      "Fever": 1,
+      "Cough": 1,
+      "Fatigue": 1
     },
     "sources": [
       "kaggle_uom190346a"
@@ -19049,7 +19482,7 @@
       "Fatigue"
     ],
     "symptom_frequency": {
-      "Fatigue": 100
+      "Fatigue": 1
     },
     "sources": [
       "kaggle_uom190346a"
@@ -19065,6 +19498,21 @@
       "Pain": 29,
       "Itching": 4,
       "Bleeding": 15
+    },
+    "sources": [
+      "kaggle_niyarrbarman"
+    ]
+  },
+  "Gastroesophageal Reflux Disease": {
+    "symptoms": [
+      "Pain",
+      "Nausea",
+      "Burning"
+    ],
+    "symptom_frequency": {
+      "Burning": 4,
+      "Pain": 15,
+      "Nausea": 4
     },
     "sources": [
       "kaggle_niyarrbarman"
@@ -19091,8 +19539,8 @@
   },
   "Myocardial Infarction (Heart Attack)": {
     "symptoms": [
-      "Arm Pain",
-      "Back Pain",
+      "Arm",
+      "Back",
       "Chest Pain",
       "Cold Sweat",
       "Feeling Faint Upon Standing",
@@ -19104,8 +19552,8 @@
       "Stomach Pain"
     ],
     "symptom_frequency": {
-      "Arm Pain": 17,
-      "Back Pain": 17,
+      "Arm": 17,
+      "Back": 17,
       "Chest Pain": 16,
       "Cold Sweat": 21,
       "Feeling Faint Upon Standing": 16,
@@ -19122,136 +19570,127 @@
   },
   "Benign Prostatic Hyperplasia (BPH)": {
     "symptoms": [
-      "Impotence",
-      "Pain In Testicles",
-      "Frequent Urination",
-      "Symptoms Of Bladder",
-      "Swelling Of Scrotum",
-      "Low Urine Output",
-      "Symptoms Of Prostate",
-      "Involuntary Urination",
       "Blood In Urine",
       "Excessive Urination At Night",
+      "Frequent Urination",
+      "Hesitancy",
+      "Impotence",
+      "Involuntary Urination",
+      "Low Urine Output",
+      "Pain In Testicles",
       "Retention Of Urine",
-      "Hesitancy"
+      "Swelling Of Scrotum",
+      "Symptoms Of Bladder",
+      "Symptoms Of Prostate"
     ],
     "symptom_frequency": {
-      "Retention Of Urine": 94,
-      "Swelling Of Scrotum": 96,
-      "Impotence": 96,
-      "Excessive Urination At Night": 94,
-      "Hesitancy": 95,
-      "Low Urine Output": 96,
-      "Pain In Testicles": 95,
-      "Involuntary Urination": 95,
-      "Blood In Urine": 98,
-      "Symptoms Of Bladder": 96,
-      "Symptoms Of Prostate": 100,
-      "Frequent Urination": 99
+      "Retention Of Urine": 53,
+      "Swelling Of Scrotum": 48,
+      "Impotence": 52,
+      "Excessive Urination At Night": 48,
+      "Hesitancy": 44,
+      "Low Urine Output": 57,
+      "Pain In Testicles": 52,
+      "Involuntary Urination": 46,
+      "Blood In Urine": 45,
+      "Symptoms Of Bladder": 45,
+      "Symptoms Of Prostate": 65,
+      "Frequent Urination": 46
     },
     "sources": [
-      "kaggle_dhivyeshrk",
       "mendeley_2023"
     ]
   },
   "Obstructive Sleep Apnea (OSA)": {
     "symptoms": [
       "Abnormal Breathing Sounds",
+      "Abnormal Involuntary Movements",
+      "Apnea",
+      "Difficulty Breathing",
+      "Difficulty In Swallowing",
+      "Fatigue",
+      "Insomnia",
       "Mouth Dryness",
       "Shortness Of Breath",
-      "Insomnia",
-      "Abnormal Involuntary Movements",
-      "Fatigue",
       "Sleepiness",
-      "Difficulty Breathing",
-      "Weight Gain",
-      "Apnea",
       "Sweating",
-      "Difficulty In Swallowing"
+      "Weight Gain"
     ],
     "symptom_frequency": {
-      "Shortness Of Breath": 91,
-      "Abnormal Involuntary Movements": 96,
-      "Difficulty In Swallowing": 95,
-      "Mouth Dryness": 100,
-      "Fatigue": 98,
-      "Insomnia": 95,
-      "Difficulty Breathing": 96,
-      "Sleepiness": 94,
-      "Apnea": 96,
-      "Abnormal Breathing Sounds": 96,
-      "Weight Gain": 96,
-      "Sweating": 98
+      "Shortness Of Breath": 47,
+      "Abnormal Involuntary Movements": 51,
+      "Difficulty In Swallowing": 52,
+      "Mouth Dryness": 47,
+      "Fatigue": 48,
+      "Insomnia": 46,
+      "Difficulty Breathing": 58,
+      "Sleepiness": 51,
+      "Apnea": 56,
+      "Abnormal Breathing Sounds": 53,
+      "Weight Gain": 52,
+      "Sweating": 42
     },
     "sources": [
-      "kaggle_dhivyeshrk",
       "mendeley_2023"
     ]
   },
   "Chronic Obstructive Pulmonary Disease (COPD)": {
     "symptoms": [
-      "Shortness Of Breath",
-      "Wheezing",
       "Chest Tightness",
-      "Cough",
-      "Fever",
-      "Fatigue",
-      "Nasal Congestion",
       "Congestion In Chest",
       "Coryza",
-      "Difficulty Breathing",
+      "Cough",
       "Coughing Up Sputum",
+      "Fever",
+      "Nasal Congestion",
+      "Sharp Chest Pain",
+      "Shortness Of Breath",
       "Sore Throat",
-      "Sharp Chest Pain"
+      "Wheezing"
     ],
     "symptom_frequency": {
-      "Sharp Chest Pain": 100,
-      "Chest Tightness": 69,
-      "Cough": 76,
-      "Nasal Congestion": 75,
-      "Coughing Up Sputum": 75,
-      "Coryza": 76,
-      "Congestion In Chest": 72,
-      "Shortness Of Breath": 70,
-      "Sore Throat": 71,
-      "Wheezing": 74,
-      "Fever": 72,
-      "Fatigue": 0,
-      "Difficulty Breathing": 0
+      "Sharp Chest Pain": 67,
+      "Chest Tightness": 56,
+      "Cough": 57,
+      "Nasal Congestion": 48,
+      "Coughing Up Sputum": 51,
+      "Coryza": 47,
+      "Congestion In Chest": 59,
+      "Shortness Of Breath": 53,
+      "Sore Throat": 51,
+      "Wheezing": 55,
+      "Fever": 49
     },
     "sources": [
-      "kaggle_dhivyeshrk",
-      "kaggle_uom190346a",
       "mendeley_2023"
     ]
   },
   "Post-Traumatic Stress Disorder (PTSD)": {
     "symptoms": [
-      "Temper Problems",
-      "Depressive Or Psychotic Symptoms",
-      "Insomnia",
-      "Delusions Or Hallucinations",
       "Abusing Alcohol",
       "Anxiety And Nervousness",
+      "Delusions Or Hallucinations",
       "Depression",
+      "Depressive Or Psychotic Symptoms",
       "Drug Abuse",
       "Excessive Anger",
-      "Hostile Behavior"
+      "Hostile Behavior",
+      "Insomnia",
+      "Temper Problems"
     ],
     "symptom_frequency": {
-      "Anxiety And Nervousness": 60,
-      "Depression": 64,
-      "Depressive Or Psychotic Symptoms": 63,
-      "Insomnia": 68,
-      "Hostile Behavior": 100,
-      "Drug Abuse": 66,
-      "Abusing Alcohol": 66,
-      "Temper Problems": 69,
-      "Excessive Anger": 64,
-      "Delusions Or Hallucinations": 65
+      "Anxiety And Nervousness": 46,
+      "Depression": 55,
+      "Depressive Or Psychotic Symptoms": 46,
+      "Insomnia": 56,
+      "Hostile Behavior": 69,
+      "Drug Abuse": 50,
+      "Abusing Alcohol": 54,
+      "Temper Problems": 55,
+      "Excessive Anger": 43,
+      "Delusions Or Hallucinations": 48
     },
     "sources": [
-      "kaggle_dhivyeshrk",
       "mendeley_2023"
     ]
   },
@@ -19284,188 +19723,237 @@
   },
   "Polycystic Ovary Syndrome (PCOS)": {
     "symptoms": [
-      "Long Menstrual Periods",
-      "Excess Hair",
-      "Difficulty Getting Pregnant",
-      "Patch Thick",
       "Acne",
-      "Intermenstrual Bleeding",
-      "Testicular Pain",
-      "Cough",
-      "Fever",
+      "Darker",
+      "Difficulty Getting Pregnant",
+      "Excess Hair",
       "Heavy Period",
-      "Infertility",
-      "Velvety Skin",
-      "Unpredictable Menstruation",
-      "Absence Of Menstruation",
-      "Hot Flashes",
       "Irregular Menstrual Period",
-      "Weight Gain",
-      "Pelvic Pain",
-      "Darker"
+      "Patch Thick",
+      "Testicular Pain",
+      "Velvety Skin"
     ],
     "symptom_frequency": {
-      "Acne": 17,
-      "Darker": 10,
-      "Difficulty Getting Pregnant": 10,
-      "Excess Hair": 10,
-      "Heavy Period": 10,
-      "Irregular Menstrual Period": 10,
-      "Patch Thick": 12,
-      "Testicular Pain": 12,
-      "Velvety Skin": 17,
-      "Hot Flashes": 100,
-      "Intermenstrual Bleeding": 59,
-      "Pelvic Pain": 60,
-      "Absence Of Menstruation": 84,
-      "Unpredictable Menstruation": 64,
-      "Weight Gain": 64,
-      "Long Menstrual Periods": 64,
-      "Infertility": 64,
-      "Fever": 0,
-      "Cough": 0
+      "Acne": 38,
+      "Darker": 24,
+      "Difficulty Getting Pregnant": 24,
+      "Excess Hair": 24,
+      "Heavy Period": 24,
+      "Irregular Menstrual Period": 24,
+      "Patch Thick": 28,
+      "Testicular Pain": 28,
+      "Velvety Skin": 38
     },
     "sources": [
-      "kaggle_dhivyeshrk",
-      "kaggle_uom190346a",
-      "rahul",
-      "mendeley_2023"
+      "rahul"
     ]
   },
   "Attention Deficit Hyperactivity Disorder (ADHD)": {
     "symptoms": [
-      "Temper Problems",
-      "Hostile Behavior",
-      "Drug Abuse",
+      "Antisocial Behavior",
+      "Anxiety And Nervousness",
       "Depression",
       "Depressive Or Psychotic Symptoms",
+      "Drug Abuse",
+      "Hostile Behavior",
       "Lack Of Growth",
       "Restlessness",
-      "Antisocial Behavior",
-      "Anxiety And Nervousness"
+      "Temper Problems"
     ],
     "symptom_frequency": {
-      "Depression": 75,
-      "Depressive Or Psychotic Symptoms": 71,
-      "Lack Of Growth": 95,
-      "Hostile Behavior": 100,
-      "Temper Problems": 75,
-      "Antisocial Behavior": 75,
-      "Anxiety And Nervousness": 70,
-      "Drug Abuse": 92,
-      "Restlessness": 70
+      "Depression": 55,
+      "Depressive Or Psychotic Symptoms": 54,
+      "Lack Of Growth": 68,
+      "Hostile Behavior": 66,
+      "Temper Problems": 53,
+      "Antisocial Behavior": 44,
+      "Anxiety And Nervousness": 45,
+      "Drug Abuse": 59,
+      "Restlessness": 43
     },
     "sources": [
-      "kaggle_dhivyeshrk",
       "mendeley_2023"
     ]
   },
   "Obsessive Compulsive Disorder (OCD)": {
     "symptoms": [
-      "Temper Problems",
-      "Obsessions And Compulsions",
+      "Anxiety And Nervousness",
       "Depression",
-      "Lack Of Growth",
       "Depressive Or Psychotic Symptoms",
-      "Low Self-Esteem",
-      "Hostile Behavior",
       "Feeling Ill",
-      "Anxiety And Nervousness"
+      "Hostile Behavior",
+      "Lack Of Growth",
+      "Low Self-Esteem",
+      "Obsessions And Compulsions",
+      "Temper Problems"
     ],
     "symptom_frequency": {
-      "Depression": 63,
-      "Depressive Or Psychotic Symptoms": 63,
-      "Hostile Behavior": 62,
-      "Temper Problems": 62,
-      "Lack Of Growth": 83,
-      "Feeling Ill": 100,
-      "Low Self-Esteem": 64,
-      "Obsessions And Compulsions": 60,
-      "Anxiety And Nervousness": 63
+      "Depression": 43,
+      "Depressive Or Psychotic Symptoms": 52,
+      "Hostile Behavior": 47,
+      "Temper Problems": 39,
+      "Lack Of Growth": 68,
+      "Feeling Ill": 84,
+      "Low Self-Esteem": 53,
+      "Obsessions And Compulsions": 51,
+      "Anxiety And Nervousness": 42
     },
     "sources": [
-      "kaggle_dhivyeshrk",
       "mendeley_2023"
     ]
   },
   "Acute Respiratory Distress Syndrome (ARDS)": {
     "symptoms": [
+      "Chest Tightness",
       "Chills",
-      "Shortness Of Breath",
+      "Cough",
       "Depressive Or Psychotic Symptoms",
       "Difficulty Breathing",
-      "Wheezing",
-      "Chest Tightness",
-      "Cough",
+      "Fever",
       "Sharp Chest Pain",
-      "Fever"
+      "Shortness Of Breath",
+      "Wheezing"
     ],
     "symptom_frequency": {
-      "Shortness Of Breath": 65,
-      "Depressive Or Psychotic Symptoms": 68,
-      "Sharp Chest Pain": 69,
-      "Difficulty Breathing": 69,
-      "Cough": 67,
-      "Fever": 70,
-      "Chills": 100,
-      "Chest Tightness": 86,
-      "Wheezing": 69
+      "Shortness Of Breath": 49,
+      "Depressive Or Psychotic Symptoms": 37,
+      "Sharp Chest Pain": 53,
+      "Difficulty Breathing": 50,
+      "Cough": 48,
+      "Fever": 45,
+      "Chills": 76,
+      "Chest Tightness": 61,
+      "Wheezing": 55
     },
     "sources": [
-      "kaggle_dhivyeshrk",
       "mendeley_2023"
     ]
   },
   "Gastroesophageal Reflux Disease (GERD)": {
     "symptoms": [
-      "Burning",
-      "Chest Pain",
-      "Hoarse Voice",
-      "Acidity",
-      "Pain",
-      "Ulcers_On_Tongue",
-      "Sharp Abdominal Pain",
-      "Nausea",
+      "Burning Abdominal Pain",
       "Chest Tightness",
       "Cough",
-      "Regurgitation.1",
-      "Burning Abdominal Pain",
-      "Vomiting",
-      "Stomach Pain",
-      "Stomach_Pain",
-      "Ulcers On Tongue",
       "Difficulty In Swallowing",
-      "Sharp Chest Pain",
-      "Regurgitation"
+      "Hoarse Voice",
+      "Nausea",
+      "Regurgitation",
+      "Regurgitation.1",
+      "Sharp Abdominal Pain",
+      "Sharp Chest Pain"
     ],
     "symptom_frequency": {
-      "Cough": 100,
-      "Difficulty In Swallowing": 85,
-      "Sharp Abdominal Pain": 72,
-      "Burning Abdominal Pain": 64,
-      "Hoarse Voice": 66,
-      "Regurgitation": 68,
-      "Regurgitation.1": 68,
-      "Sharp Chest Pain": 67,
-      "Nausea": 61,
-      "Chest Tightness": 68,
-      "Stomach_Pain": 67,
-      "Acidity": 63,
-      "Ulcers_On_Tongue": 63,
-      "Vomiting": 63,
-      "Chest Pain": 67,
-      "Stomach Pain": 27,
-      "Ulcers On Tongue": 26,
-      "Burning": 1,
-      "Pain": 4
+      "Cough": 65,
+      "Difficulty In Swallowing": 66,
+      "Sharp Abdominal Pain": 54,
+      "Burning Abdominal Pain": 50,
+      "Hoarse Voice": 44,
+      "Regurgitation": 47,
+      "Regurgitation.1": 47,
+      "Sharp Chest Pain": 44,
+      "Nausea": 49,
+      "Chest Tightness": 49
     },
     "sources": [
-      "kaggle_choongqianzheng",
-      "mendeley_2023",
-      "symbipredict",
-      "kaggle_itachi9604",
-      "kaggle_niyarrbarman",
-      "kaggle_dhivyeshrk"
+      "mendeley_2023"
+    ]
+  },
+  "Benign Paroxysmal Positional Vertical (BPPV)": {
+    "symptoms": [
+      "Dizziness",
+      "Fainting",
+      "Frontal Headache",
+      "Headache",
+      "Irregular Heartbeat",
+      "Nausea",
+      "Problems With Movement",
+      "Vomiting",
+      "Weakness"
+    ],
+    "symptom_frequency": {
+      "Irregular Heartbeat": 74,
+      "Vomiting": 48,
+      "Headache": 54,
+      "Weakness": 52,
+      "Dizziness": 46,
+      "Fainting": 70,
+      "Problems With Movement": 52,
+      "Frontal Headache": 52,
+      "Nausea": 53
+    },
+    "sources": [
+      "mendeley_2023"
+    ]
+  },
+  "Premature Ventricular Contractions (PVCS)": {
+    "symptoms": [
+      "Chest Tightness",
+      "Fainting",
+      "Impotence",
+      "Irregular Heartbeat",
+      "Palpitations",
+      "Sharp Chest Pain",
+      "Shortness Of Breath",
+      "Sleepiness"
+    ],
+    "symptom_frequency": {
+      "Shortness Of Breath": 79,
+      "Sharp Chest Pain": 57,
+      "Chest Tightness": 55,
+      "Palpitations": 55,
+      "Irregular Heartbeat": 54,
+      "Impotence": 67,
+      "Sleepiness": 70,
+      "Fainting": 52
+    },
+    "sources": [
+      "mendeley_2023"
+    ]
+  },
+  "GERD": {
+    "symptoms": [
+      "Acidity",
+      "Chest Pain",
+      "Cough",
+      "Stomach Pain",
+      "Ulcers On Tongue",
+      "Vomiting"
+    ],
+    "symptom_frequency": {
+      "Stomach Pain": 94,
+      "Acidity": 88,
+      "Ulcers On Tongue": 88,
+      "Vomiting": 88,
+      "Cough": 94,
+      "Chest Pain": 94
+    },
+    "sources": [
+      "symbipredict"
+    ]
+  },
+  "Polycystic Ovarian Syndrome (PCOS)": {
+    "symptoms": [
+      "Absence Of Menstruation",
+      "Hot Flashes",
+      "Infertility",
+      "Intermenstrual Bleeding",
+      "Long Menstrual Periods",
+      "Pelvic Pain",
+      "Unpredictable Menstruation",
+      "Weight Gain"
+    ],
+    "symptom_frequency": {
+      "Hot Flashes": 85,
+      "Intermenstrual Bleeding": 43,
+      "Pelvic Pain": 55,
+      "Absence Of Menstruation": 72,
+      "Unpredictable Menstruation": 55,
+      "Weight Gain": 56,
+      "Long Menstrual Periods": 50,
+      "Infertility": 48
+    },
+    "sources": [
+      "mendeley_2023"
     ]
   },
   "Lead Poisoning": {
@@ -19545,164 +20033,65 @@
   },
   "AIDS": {
     "symptoms": [
-      "Patches In Throat",
-      "High Fever",
       "Extra Marital Contacts",
-      "Patches_In_Throat",
+      "High Fever",
       "Muscle Wasting",
-      "High_Fever"
+      "Patches In Throat"
     ],
     "symptom_frequency": {
-      "Muscle Wasting": 94,
-      "Patches In Throat": 38,
-      "High Fever": 41,
-      "Extra Marital Contacts": 94,
-      "Patches_In_Throat": 94,
-      "High_Fever": 100
+      "Muscle Wasting": 88,
+      "Patches In Throat": 88,
+      "High Fever": 94,
+      "Extra Marital Contacts": 88
     },
     "sources": [
-      "symbipredict",
-      "kaggle_itachi9604",
-      "kaggle_choongqianzheng"
+      "symbipredict"
     ]
   },
   "Deep Vein Thrombosis (DVT)": {
     "symptoms": [
-      "Leg Stiffness Or Tightness",
-      "Leg Cramps Or Spasms",
-      "Leg Pain",
-      "Leg Swelling",
       "Abnormal Appearing Skin",
       "Arm Swelling",
-      "Foot Or Toe Swelling"
+      "Foot Or Toe Swelling",
+      "Leg Cramps Or Spasms",
+      "Leg Pain",
+      "Leg Stiffness Or Tightness",
+      "Leg Swelling"
     ],
     "symptom_frequency": {
-      "Abnormal Appearing Skin": 90,
-      "Leg Cramps Or Spasms": 100,
-      "Leg Stiffness Or Tightness": 89,
-      "Leg Pain": 69,
-      "Arm Swelling": 88,
-      "Foot Or Toe Swelling": 66,
-      "Leg Swelling": 69
+      "Abnormal Appearing Skin": 64,
+      "Leg Cramps Or Spasms": 76,
+      "Leg Stiffness Or Tightness": 69,
+      "Leg Pain": 54,
+      "Arm Swelling": 64,
+      "Foot Or Toe Swelling": 47,
+      "Leg Swelling": 57
     },
     "sources": [
-      "kaggle_dhivyeshrk",
       "mendeley_2023"
     ]
   },
-  "Benign Paroxysmal Positional Vertigo (BPPV)": {
+  "Premature Atrial Contractions (PACS)": {
     "symptoms": [
-      "Weakness",
-      "Vomiting",
-      "Irregular Heartbeat",
-      "Fainting",
       "Dizziness",
-      "Headache",
-      "Nausea",
-      "Frontal Headache",
-      "Problems With Movement"
-    ],
-    "symptom_frequency": {
-      "Irregular Heartbeat": 100,
-      "Vomiting": 66,
-      "Headache": 70,
-      "Weakness": 64,
-      "Dizziness": 67,
-      "Fainting": 88,
-      "Problems With Movement": 66,
-      "Frontal Headache": 64,
-      "Nausea": 67
-    },
-    "sources": [
-      "mendeley_2023",
-      "kaggle_dhivyeshrk"
-    ]
-  },
-  "Premature Atrial Contractions (PACs)": {
-    "symptoms": [
-      "Palpitations",
-      "Shortness Of Breath",
-      "Irregular Heartbeat",
       "Fainting",
-      "Dizziness",
       "Fatigue",
-      "Muscle Swelling"
-    ],
-    "symptom_frequency": {
-      "Dizziness": 97,
-      "Palpitations": 76,
-      "Fainting": 97,
-      "Muscle Swelling": 89,
-      "Shortness Of Breath": 100,
-      "Irregular Heartbeat": 71,
-      "Fatigue": 70
-    },
-    "sources": [
-      "mendeley_2023",
-      "kaggle_dhivyeshrk"
-    ]
-  },
-  "Premature Ventricular Contractions (PVCs)": {
-    "symptoms": [
-      "Impotence",
-      "Palpitations",
-      "Shortness Of Breath",
-      "Sleepiness",
       "Irregular Heartbeat",
-      "Fainting",
-      "Chest Tightness",
-      "Sharp Chest Pain"
+      "Muscle Swelling",
+      "Palpitations",
+      "Shortness Of Breath"
     ],
     "symptom_frequency": {
-      "Shortness Of Breath": 100,
-      "Sharp Chest Pain": 69,
-      "Chest Tightness": 70,
-      "Palpitations": 70,
-      "Irregular Heartbeat": 69,
-      "Impotence": 87,
-      "Sleepiness": 86,
-      "Fainting": 67
+      "Dizziness": 71,
+      "Palpitations": 53,
+      "Fainting": 79,
+      "Muscle Swelling": 65,
+      "Shortness Of Breath": 74,
+      "Irregular Heartbeat": 50,
+      "Fatigue": 53
     },
     "sources": [
-      "mendeley_2023",
-      "kaggle_dhivyeshrk"
-    ]
-  },
-  "COVID-19": {
-    "symptoms": [
-      "Fever",
-      "Cough",
-      "Fatigue",
-      "Shortness Of Breath",
-      "Loss Of Smell",
-      "Loss Of Taste",
-      "Sore Throat",
-      "Headache",
-      "Muscle Pain",
-      "Chills",
-      "Nasal Congestion",
-      "Nausea",
-      "Diarrhea"
-    ],
-    "symptom_frequency": {
-      "Fever": 88,
-      "Cough": 68,
-      "Fatigue": 63,
-      "Shortness Of Breath": 19,
-      "Loss Of Smell": 41,
-      "Loss Of Taste": 38,
-      "Sore Throat": 14,
-      "Headache": 14,
-      "Muscle Pain": 15,
-      "Chills": 11,
-      "Nasal Congestion": 5,
-      "Nausea": 5,
-      "Diarrhea": 4
-    },
-    "sources": [
-      "WHO",
-      "CDC",
-      "manual_addition"
+      "mendeley_2023"
     ]
   }
 }

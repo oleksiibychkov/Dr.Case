@@ -1,63 +1,79 @@
 """
-Dr.Case — Модуль генерації питань (Question Engine)
+Dr.Case — Модуль Question Engine
 
 Генерує уточнюючі питання для звуження діагнозу на основі
-Information Gain — міри того, наскільки відповідь на питання
-зменшить невизначеність.
+Expected Information Gain (EIG).
+
+EIG(q) = H(ŷ) - E[H(ŷ|answer)]
 
 Компоненти:
-- QuestionGenerator: Головний клас для генерації питань
-- InformationGainCalculator: Обчислення Information Gain
-- QuestionStrategy: Стратегії вибору питань
+- InformationGainCalculator: Обчислення EIG для симптомів
+- QuestionSelector: Вибір найкращого питання
+- AnswerProcessor: Обробка відповідей та оновлення стану
 
 Приклад використання:
-    from dr_case.question_engine import QuestionGenerator, QuestionStrategy
+    from dr_case.question_engine import QuestionSelector, AnswerProcessor, AnswerType
     
-    # Створення генератора
-    generator = QuestionGenerator.from_database(
-        "data/unified_disease_symptom_data_full.json",
-        strategy=QuestionStrategy.HYBRID
-    )
+    # Створення selector
+    selector = QuestionSelector.from_database("data/database.json")
     
-    # Генерація питань
-    candidates = ["Influenza", "Common Cold", "Bronchitis", "Pneumonia"]
-    known_symptoms = ["fever", "cough"]
+    # Поточні ймовірності від NN
+    probs = {"Influenza": 0.45, "Cold": 0.32, "COVID": 0.15}
+    known = {"Fever", "Cough"}
     
-    questions = generator.generate(
-        candidates=candidates,
-        known_present=known_symptoms,
-        n_questions=3
-    )
+    # Вибір питання
+    question = selector.select_question(probs, known_symptoms=known)
     
-    for q in questions:
-        print(f"Q: {q.text}")
-        print(f"   IG: {q.information_gain:.4f}")
-    
-    # Пояснення питання
-    explanation = generator.explain_question(questions[0], candidates)
-    print(explanation)
+    if question:
+        print(f"Питання: {question.text}")
+        print(f"EIG: {question.eig:.4f}")
+        
+        # Обробка відповіді
+        new_probs = selector.process_answer(probs, question.symptom, AnswerType.YES)
 """
 
 from .information_gain import (
     InformationGainCalculator,
-    SymptomInformationGain
+    EIGResult,
+    AnswerType,
+    FuzzyMembershipHandler,
+    entropy,
+    normalize_probs,
 )
-from .generator import (
+
+from .question_selector import (
+    QuestionSelector,
     QuestionGenerator,
-    QuestionStrategy,
-    QuestionCandidate,
-    SAFETY_CRITICAL_SYMPTOMS
+    Question,
+    QuestionResult,
+)
+
+from .answer_processor import (
+    AnswerProcessor,
+    SessionState,
+    SymptomState,
+    SymptomVectorUpdater,
 )
 
 
 __all__ = [
     # Information Gain
     "InformationGainCalculator",
-    "SymptomInformationGain",
+    "EIGResult",
+    "AnswerType",
+    "FuzzyMembershipHandler",
+    "entropy",
+    "normalize_probs",
     
-    # Generator
-    "QuestionGenerator",
-    "QuestionStrategy",
-    "QuestionCandidate",
-    "SAFETY_CRITICAL_SYMPTOMS",
+    # Question Selector
+    "QuestionSelector",
+    "QuestionGenerator", 
+    "Question",
+    "QuestionResult",
+    
+    # Answer Processor
+    "AnswerProcessor",
+    "SessionState",
+    "SymptomState",
+    "SymptomVectorUpdater",
 ]
