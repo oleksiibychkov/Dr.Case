@@ -1,0 +1,7 @@
+streamlit>=1.28.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.5.0
+numpy>=1.24.0
+torch>=2.0.0
+minisom>=2.3.0
