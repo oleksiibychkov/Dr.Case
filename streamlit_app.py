@@ -315,13 +315,13 @@ class SimpleDiagnosisEngine:
 class SOMDiagnosisEngine(SimpleDiagnosisEngine):
     """Діагностичний движок з використанням SOM + Neural Network"""
     
-    def __init__(self, db, symptoms_list, symptom_to_idx, som_data, nn_model=None):
+    def __init__(self, db, symptoms_list, symptom_to_idx, som_data, nn_model):
         super().__init__(db, symptoms_list, symptom_to_idx)
         self.som_data = som_data
-        self.som = som_data.get('som') if som_data else None
-        self.unit_to_diseases = som_data.get('unit_to_diseases', {}) if som_data else {}
-        self.disease_to_idx = som_data.get('disease_to_idx', {}) if som_data else {}
-        self.nn_model = nn_model  # TwoBranchNN instance
+        self.som = som_data.get('som')
+        self.unit_to_diseases = som_data.get('unit_to_diseases', {})
+        self.disease_to_idx = som_data.get('disease_to_idx', {})
+        self.nn_model = nn_model  # TwoBranchNN instance (обов'язковий)
     
     def diagnose(self, present_symptoms: List[str], top_k: int = 10) -> List[DiagnosisResult]:
         """Діагностика з SOM + Neural Network"""
@@ -333,34 +333,28 @@ class SOMDiagnosisEngine(SimpleDiagnosisEngine):
         # === Етап 1: SOM — отримуємо кандидатів ===
         candidates = set()
         
-        if self.som is not None:
-            try:
-                bmu = self.som.winner(x)
-                bmu_key = f"{bmu[0]}_{bmu[1]}"
-                
-                # BMU та сусіди (5x5 область для більшого покриття)
-                for di in range(-2, 3):
-                    for dj in range(-2, 3):
-                        neighbor_key = f"{bmu[0]+di}_{bmu[1]+dj}"
-                        if neighbor_key in self.unit_to_diseases:
-                            candidates.update(self.unit_to_diseases[neighbor_key])
-            except Exception as e:
-                pass
+        try:
+            bmu = self.som.winner(x)
+            bmu_key = f"{bmu[0]}_{bmu[1]}"
+            
+            # BMU та сусіди (5x5 область для більшого покриття)
+            for di in range(-2, 3):
+                for dj in range(-2, 3):
+                    neighbor_key = f"{bmu[0]+di}_{bmu[1]+dj}"
+                    if neighbor_key in self.unit_to_diseases:
+                        candidates.update(self.unit_to_diseases[neighbor_key])
+        except Exception as e:
+            # Якщо SOM не працює — беремо всі хвороби
+            candidates = set(self.disease_symptoms.keys())
         
-        # Fallback: якщо кандидатів мало, додаємо всі хвороби
+        # Якщо кандидатів мало — розширюємо
         if len(candidates) < 20:
             candidates = set(self.disease_symptoms.keys())
         
         # === Етап 2: Neural Network — ранжуємо кандидатів ===
-        nn_scores = {}
+        nn_scores = self.nn_model.predict(x)
         
-        if self.nn_model is not None and self.nn_model.ready:
-            try:
-                nn_scores = self.nn_model.predict(x)
-            except Exception as e:
-                pass
-        
-        # === Етап 3: Комбінуємо SOM + NN + Jaccard ===
+        # === Етап 3: Комбінуємо NN + Jaccard ===
         scores = []
         
         for disease in candidates:
@@ -369,7 +363,7 @@ class SOMDiagnosisEngine(SimpleDiagnosisEngine):
             if not disease_syms:
                 continue
             
-            # Jaccard similarity
+            # Jaccard similarity (для matching_symptoms)
             intersection = present_set & disease_syms
             union = present_set | disease_syms
             jaccard = len(intersection) / len(union) if union else 0
@@ -377,16 +371,11 @@ class SOMDiagnosisEngine(SimpleDiagnosisEngine):
             # Coverage
             coverage = len(intersection) / len(present_set) if present_set else 0
             
-            # NN score
+            # NN score — основний
             nn_score = nn_scores.get(disease, 0)
             
-            # Комбінований скор
-            if nn_score > 0:
-                # Якщо є NN — використовуємо його з вагою
-                score = 0.5 * nn_score + 0.3 * jaccard + 0.2 * coverage
-            else:
-                # Без NN — тільки Jaccard
-                score = 0.6 * jaccard + 0.4 * coverage
+            # Комбінований скор: NN домінує
+            score = 0.7 * nn_score + 0.2 * jaccard + 0.1 * coverage
             
             scores.append(DiagnosisResult(
                 disease_name=disease,
@@ -417,40 +406,32 @@ def get_engine():
     db, symptoms_list, symptom_to_idx = load_database()
     
     if not db:
-        return None, "Database not found"
+        return None, "❌ База даних не знайдена"
     
-    # Завантажити SOM
+    # Завантажити SOM (обов'язково)
     som_data, som_error = load_som_model()
     
-    # Завантажити Neural Network
-    nn_checkpoint, nn_error = load_nn_model()
-    nn_model = None
+    if not som_data:
+        return None, f"❌ SOM модель не завантажена: {som_error}"
     
-    if nn_checkpoint:
-        try:
-            nn_model = TwoBranchNN(nn_checkpoint, len(symptoms_list), len(db))
-            if not nn_model.ready:
-                nn_model = None
-        except Exception as e:
-            nn_model = None
+    # Завантажити Neural Network (обов'язково)
+    nn_checkpoint, nn_error = load_nn_model()
+    
+    if not nn_checkpoint:
+        return None, f"❌ Neural Network не завантажена: {nn_error}"
+    
+    # Створити NN wrapper
+    try:
+        nn_model = TwoBranchNN(nn_checkpoint, len(symptoms_list), len(db))
+        if not nn_model.ready:
+            return None, f"❌ Neural Network не ініціалізована: {getattr(nn_model, 'error', 'unknown error')}"
+    except Exception as e:
+        return None, f"❌ Помилка ініціалізації NN: {e}"
     
     # Створити engine
-    status_parts = []
+    engine = SOMDiagnosisEngine(db, symptoms_list, symptom_to_idx, som_data, nn_model)
     
-    if som_data:
-        engine = SOMDiagnosisEngine(db, symptoms_list, symptom_to_idx, som_data, nn_model)
-        status_parts.append("SOM ✓")
-    else:
-        engine = SimpleDiagnosisEngine(db, symptoms_list, symptom_to_idx)
-        status_parts.append(f"SOM ✗ ({som_error})")
-    
-    if nn_model and nn_model.ready:
-        status_parts.append("NN ✓")
-    else:
-        status_parts.append(f"NN ✗ ({nn_error if nn_error else 'not loaded'})")
-    
-    status = " | ".join(status_parts)
-    return engine, status
+    return engine, "✅ SOM + Neural Network"
 
 
 # ============================================================================
@@ -467,7 +448,6 @@ def show_home():
     
     - 🧠 **Self-Organizing Map (SOM)** — для визначення клінічного сценарію
     - 🤖 **Neural Network (MultiLabel)** — для ранжування діагнозів
-    - 📊 **Jaccard Similarity** — як базовий алгоритм
     
     ---
     
@@ -485,11 +465,13 @@ def show_home():
     col1, col2, col3 = st.columns(3)
     col1.metric("🦠 Хвороб", len(db))
     col2.metric("🩺 Симптомів", len(symptoms_list))
-    col3.metric("📈 Модель", "SOM + NN" if "NN ✓" in (status or "") else "Jaccard")
+    col3.metric("🔬 Модель", "SOM + NN")
     
     # Статус моделей
-    if status:
-        st.info(f"**Статус моделей:** {status}")
+    if engine:
+        st.success(status)
+    else:
+        st.error(status)
     
     st.divider()
     
@@ -509,15 +491,19 @@ def show_quick_diagnosis():
     st.markdown("Оберіть симптоми та отримайте список найімовірніших діагнозів.")
     
     # Завантаження
-    engine, warning = get_engine()
+    engine, status = get_engine()
     
     if engine is None:
-        st.error(f"❌ Помилка: {warning}")
-        st.info("Перевірте наявність файлу бази даних у папці `data/`")
+        st.error(status)
+        st.info("""
+        **Перевірте наявність файлів:**
+        - `data/unified_disease_symptom_merged.json`
+        - `models/som_model.pkl` (або `som_merged.pkl`)
+        - `models/nn_two_branch.pt`
+        """)
         return
     
-    if warning:
-        st.info(f"ℹ️ {warning}")
+    st.success(status)
     
     db, symptoms_list, _ = load_database()
     
