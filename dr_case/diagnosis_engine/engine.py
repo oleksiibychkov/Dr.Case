@@ -21,7 +21,7 @@ from dr_case.config import CandidateSelectorConfig
 from dr_case.schemas import DiagnosisHypothesis, Question, Patient
 from dr_case.encoding import DiseaseEncoder, SymptomVocabulary, PatientEncoder
 from dr_case.candidate_selector import CandidateSelector, SelectionResult
-from dr_case.question_engine import QuestionSelector
+from dr_case.question_engine import QuestionGenerator, QuestionStrategy
 
 from .session import DiagnosisSession, SessionStatus, CycleResult, ConfidenceLevel
 
@@ -148,8 +148,10 @@ class DiagnosisEngine:
         )
         
         # QuestionGenerator
-        question_gen = QuestionSelector.from_database(database_path)
-
+        question_gen = QuestionGenerator.from_database(
+            database_path,
+            strategy=QuestionStrategy.HYBRID
+        )
         
         # DiseaseEncoder
         encoder = DiseaseEncoder.from_database(database_path)
