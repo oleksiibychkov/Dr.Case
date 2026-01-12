@@ -37,7 +37,7 @@ def load_engine():
         # Шляхи до файлів
         som_path = PROJECT_ROOT / "models" / "som_model.pkl"
         nn_path = PROJECT_ROOT / "models" / "nn_two_branch.pt"
-        db_path = PROJECT_ROOT / "data" / "unified_disease_symptom_data_full.json"
+        db_path = PROJECT_ROOT / "data" / "unified_disease_symptom_merged.json"
         
         # Альтернативні шляхи
         if not som_path.exists():
@@ -59,7 +59,7 @@ def load_engine():
 def load_database():
     """Завантажити базу даних для пошуку симптомів"""
     import json
-    db_path = PROJECT_ROOT / "data" / "unified_disease_symptom_data_full.json"
+    db_path = PROJECT_ROOT / "data" / "unified_disease_symptom_merged.json"
     
     if db_path.exists():
         with open(db_path, 'r', encoding='utf-8') as f:
