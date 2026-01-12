@@ -126,6 +126,9 @@ class TwoBranchNN:
     """Wrapper для Two-Branch Neural Network"""
     
     def __init__(self, checkpoint, n_symptoms: int, n_diseases: int):
+        self.ready = False
+        self.error = None
+        
         try:
             import torch
             import torch.nn as nn
@@ -134,29 +137,45 @@ class TwoBranchNN:
             self.n_symptoms = n_symptoms
             self.n_diseases = n_diseases
             
-            # Отримуємо параметри з checkpoint
+            # Діагностика: що в checkpoint?
             if isinstance(checkpoint, dict):
+                self.checkpoint_keys = list(checkpoint.keys())
+                
                 self.disease_to_idx = checkpoint.get('disease_to_idx', {})
                 self.idx_to_disease = checkpoint.get('idx_to_disease', {})
                 self.symptom_to_idx = checkpoint.get('symptom_to_idx', {})
                 
-                # Визначаємо архітектуру
-                state_dict = checkpoint.get('model_state_dict', checkpoint.get('state_dict', {}))
+                # Якщо idx_to_disease порожній, створюємо з disease_to_idx
+                if not self.idx_to_disease and self.disease_to_idx:
+                    self.idx_to_disease = {v: k for k, v in self.disease_to_idx.items()}
+                
+                # Визначаємо state_dict
+                state_dict = None
+                for key in ['model_state_dict', 'state_dict', 'model']:
+                    if key in checkpoint:
+                        state_dict = checkpoint[key]
+                        self.state_dict_key = key
+                        break
+                
+                if state_dict is None:
+                    # Можливо весь checkpoint це state_dict
+                    if any('weight' in k for k in checkpoint.keys()):
+                        state_dict = checkpoint
+                        self.state_dict_key = 'direct'
                 
                 if state_dict:
-                    # Визначаємо розміри з state_dict
                     self.model = self._build_model_from_state(state_dict)
                     self.model.load_state_dict(state_dict)
                     self.model.eval()
                     self.ready = True
                 else:
-                    self.ready = False
+                    self.error = f"No state_dict found. Keys: {self.checkpoint_keys}"
             else:
-                self.ready = False
+                self.error = f"Checkpoint is not dict: {type(checkpoint)}"
                 
         except Exception as e:
-            self.ready = False
-            self.error = str(e)
+            import traceback
+            self.error = f"{str(e)}\n{traceback.format_exc()}"
     
     def _build_model_from_state(self, state_dict):
         """Побудувати модель на основі state_dict"""
@@ -424,9 +443,11 @@ def get_engine():
     try:
         nn_model = TwoBranchNN(nn_checkpoint, len(symptoms_list), len(db))
         if not nn_model.ready:
-            return None, f"❌ Neural Network не ініціалізована: {getattr(nn_model, 'error', 'unknown error')}"
+            error_msg = nn_model.error if nn_model.error else "Невідома помилка"
+            return None, f"❌ Neural Network не ініціалізована:\n{error_msg}"
     except Exception as e:
-        return None, f"❌ Помилка ініціалізації NN: {e}"
+        import traceback
+        return None, f"❌ Помилка ініціалізації NN:\n{e}\n{traceback.format_exc()}"
     
     # Створити engine
     engine = SOMDiagnosisEngine(db, symptoms_list, symptom_to_idx, som_data, nn_model)
@@ -495,12 +516,21 @@ def show_quick_diagnosis():
     
     if engine is None:
         st.error(status)
-        st.info("""
-        **Перевірте наявність файлів:**
-        - `data/unified_disease_symptom_merged.json`
-        - `models/som_model.pkl` (або `som_merged.pkl`)
-        - `models/nn_two_branch.pt`
-        """)
+        
+        # Показати додаткову діагностику
+        with st.expander("🔧 Діагностика"):
+            st.markdown("""
+            **Перевірте наявність файлів:**
+            - `data/unified_disease_symptom_merged.json`
+            - `models/som_model.pkl` (або `som_merged.pkl`)
+            - `models/nn_two_branch.pt`
+            """)
+            
+            # Показати що є в checkpoint
+            nn_checkpoint, nn_error = load_nn_model()
+            if nn_checkpoint:
+                st.write("**Ключі в NN checkpoint:**")
+                st.code(str(list(nn_checkpoint.keys())))
         return
     
     st.success(status)
