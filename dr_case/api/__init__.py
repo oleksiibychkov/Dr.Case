@@ -1,50 +1,53 @@
 """
-Dr.Case — REST API модуль
+Dr.Case — API Module
 
-FastAPI REST API для діагностичної системи.
-
-Компоненти:
-- main.py: FastAPI application
-- routes.py: API endpoints
-- models.py: Pydantic models
-- dependencies.py: Залежності та стан
+FastAPI backend для системи медичної діагностики.
 
 Запуск:
-    cd C:\\Projects\\Dr.Case
-    uvicorn dr_case.api.main:app --reload --port 8000
-
-Або:
-    python -m dr_case.api.main
+    python scripts/run_api.py
+    
+    або:
+    
+    uvicorn dr_case.api.app:app --reload
 
 Документація:
-    http://localhost:8000/docs (Swagger UI)
-    http://localhost:8000/redoc (ReDoc)
+    http://localhost:8000/docs
 
 Endpoints:
-    GET  /                          - Root info
-    GET  /api/v1/health            - Health check
-    
-    POST /api/v1/diagnose/quick    - Швидка діагностика
-    
-    POST /api/v1/session/start     - Почати сесію
-    GET  /api/v1/session/{id}      - Інфо про сесію
-    GET  /api/v1/session/{id}/questions - Отримати питання
-    POST /api/v1/session/{id}/answer    - Відповісти на питання
-    POST /api/v1/session/{id}/complete  - Завершити сесію
-    
-    GET  /api/v1/info/symptoms     - Список симптомів
-    GET  /api/v1/info/diseases     - Список захворювань
-    GET  /api/v1/info/symptoms/search?q= - Пошук симптомів
-    GET  /api/v1/info/diseases/search?q= - Пошук захворювань
+    GET  /health              - Перевірка стану
+    GET  /api/symptoms        - Список симптомів
+    GET  /api/symptoms/search - Пошук симптомів
+    POST /api/symptoms/extract - NLP витягування симптомів
+    POST /api/diagnose        - Швидка діагностика
+    POST /api/diagnose/text   - Діагностика з тексту
+    POST /api/sessions        - Створити сесію
+    GET  /api/sessions/{id}   - Стан сесії
+    POST /api/sessions/{id}/answer - Відповідь на питання
+    POST /api/sessions/{id}/feedback - Зворотний зв'язок
+    DELETE /api/sessions/{id} - Видалити сесію
 """
 
-from .main import app
-from .dependencies import app_state, get_engine, get_session_store
-
+from .app import app
+from .config import config, APIConfig
+from .dependencies import (
+    ModelsManager,
+    SessionManager,
+    DiagnosisSession,
+    models_manager,
+    session_manager,
+    get_models,
+    get_sessions,
+)
 
 __all__ = [
-    "app",
-    "app_state",
-    "get_engine",
-    "get_session_store",
+    'app',
+    'config',
+    'APIConfig',
+    'ModelsManager',
+    'SessionManager',
+    'DiagnosisSession',
+    'models_manager',
+    'session_manager',
+    'get_models',
+    'get_sessions',
 ]
