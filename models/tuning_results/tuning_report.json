@@ -1,0 +1,30 @@
+{
+  "som": null,
+  "candidate": null,
+  "nn": {
+    "best_params": {
+      "hidden_dims": [
+        256,
+        128
+      ],
+      "dropout": 0.2,
+      "learning_rate": 0.001
+    },
+    "best_score": -1.0
+  },
+  "initial_score": 0.8234265073161537,
+  "final_score": 0.2025,
+  "total_improvement": -0.6209265073161537,
+  "best_config": {
+    "neural_network": {
+      "hidden_dims": [
+        256,
+        128
+      ],
+      "dropout": 0.2,
+      "learning_rate": 0.001
+    }
+  },
+  "timestamp": "2026-01-12T00:24:21.286453",
+  "total_duration_seconds": 1.192969
+}
