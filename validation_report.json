@@ -42,97 +42,97 @@
       [
         "Ganglion Cyst",
         [
-          "Fracture Of The Finger",
-          "Paronychia",
           "Crushing Injury",
-          "Guillain Barre Syndrome"
+          "Guillain Barre Syndrome",
+          "Fracture Of The Finger",
+          "Paronychia"
         ]
       ],
       [
         "Temporary Or Benign Blood In Urine",
         [
-          "Cervical Disorder",
-          "Premature Rupture Of Amniotic Membrane",
+          "Urge Incontinence",
+          "Overflow Incontinence",
           "Gas Gangrene",
-          "Acute Fatty Liver Of Pregnancy (Aflp)",
-          "Overflow Incontinence"
+          "Premature Rupture Of Amniotic Membrane",
+          "Testicular Torsion"
         ]
       ],
       [
         "Benign Paroxysmal Positional Vertigo (BPPV)",
         [
-          "Hypertension",
+          "Multiple Sclerosis",
           "Hypoglycemia",
           "Encephalitis",
           "Autonomic Nervous System Disorder",
-          "Multiple Sclerosis"
+          "Hypertension"
         ]
       ],
       [
         "Pulmonary Hypertension",
         [
-          "Alzheimer'S Disease",
-          "Parkinson'S Disease",
-          "Urinary Tract Infection (Uti)",
-          "Systemic Lupus Erythematosus...",
-          "Otitis Media (Ear Infection)"
+          "Crohn'S Disease",
+          "Allergic Rhinitis",
+          "Lung Cancer",
+          "Chronic Obstructive Pulmonary...",
+          "Myocardial Infarction (Heart..."
         ]
       ],
       [
         "Crohn Disease",
         [
           "Choledocholithiasis",
-          "Noninfectious Gastroenteritis",
-          "Celiac Disease",
-          "Hyperemesis Gravidarum",
-          "White Blood Cell Disease"
+          "Chronic Pancreatitis",
+          "Infectious Gastroenteritis",
+          "Sepsis",
+          "Hypovolemia"
         ]
       ],
       [
         "Systemic Lupus Erythematosus...",
         [
-          "Histoplasmosis",
           "Neuropathy Due To Drugs",
-          "Spherocytosis",
-          "G6Pd Enzyme Deficiency",
-          "Hyperosmotic Hyperketotic State"
+          "Hyperosmotic Hyperketotic State",
+          "Conjunctivitis (Pink Eye)",
+          "Wilson Disease",
+          "G6Pd Enzyme Deficiency"
         ]
       ],
       [
         "Bell Palsy",
         [
           "Pituitary Disorder",
-          "Fracture Of The Facial Bones",
-          "Hypothermia",
           "Blepharospasm",
+          "Fracture Of The Jaw",
+          "Fracture Of The Facial Bones",
           "Insulin Overdose"
         ]
       ],
       [
         "Bronchial Asthma",
         [
-          "Histoplasmosis",
           "Neuropathy Due To Drugs",
-          "Spherocytosis",
+          "Hyperosmotic Hyperketotic State",
+          "Conjunctivitis (Pink Eye)",
           "G6Pd Enzyme Deficiency",
-          "Hyperosmotic Hyperketotic State"
+          "Wilson Disease"
         ]
       ],
       [
         "Hypertensive Heart Disease",
         [
-          "Anemia Due To Chronic Kidney Disease",
+          "Thyroid Nodule",
+          "Colorectal Cancer",
+          "Bronchial Asthma",
           "Central Atherosclerosis",
-          "Primary Insomnia",
-          "Metastatic Cancer",
-          "Colorectal Cancer"
+          "Cerebral Palsy"
         ]
       ]
     ],
     "precision_at_k": {
       "1": 0.03,
-      "5": 0.18,
-      "10": 0.34
+      "5": 0.17,
+      "10": 0.33
     },
     "is_production_ready": false,
     "is_acceptable": false
@@ -170,8 +170,8 @@
     "SOM: Потрібно перенавчити з іншими параметрами",
     "Candidate: Recall занадто низький, збільшіть k або α"
   ],
-  "timestamp": "2026-01-12T09:43:38.852307",
-  "duration_seconds": 2.721465,
+  "timestamp": "2026-01-13T09:45:36.241631",
+  "duration_seconds": 2.598818,
   "n_test_cases": 100,
   "is_production_ready": false
 }

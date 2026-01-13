@@ -407,7 +407,7 @@ class CandidateSelector:
     def get_diseases_in_neighborhood(
         self,
         present_symptoms: List[str],
-        radius: int = 1
+        radius: int = 3
     ) -> Dict[str, List[str]]:
         """
         Отримати діагнози в сусідстві BMU.

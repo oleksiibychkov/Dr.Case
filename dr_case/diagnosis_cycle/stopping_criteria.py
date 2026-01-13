@@ -48,7 +48,8 @@ class StoppingConfig:
     
     # CONFIDENT
     confidence_threshold: float = 0.80    # Поріг впевненості
-
+    # CLUSTER
+    cluster_radius: int = 3               # Радіус пошуку сусідніх кластерів
 
 @dataclass
 class StopDecision:
